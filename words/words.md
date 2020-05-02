@@ -2,217 +2,217 @@
     <div>
     	<iframe id="splash" width="960" height="480" src="banners/splash.html"></iframe>
         <div style="top: 70px;font-size: 75px;font-weight: bold;">
-        	What Happens Next?
+        	¿Qué ocurrirá ahora?
        	</div>
 		<div style="font-weight: 500;top: 140px;left: 10px;font-size: 29px;">
-			COVID-19 Futures, Explained With Playable Simulations
+			Los futuros de la COVID-19, explicados con simulaciones
 		</div>
 		<div style="font-weight: 100;top: 189px;left: 10px;font-size: 19px;line-height: 21px;">
 			<b>
-				🕐 30 min play/read
+				🕐 30 min ver/leer
 				&nbsp;&middot;&nbsp;
 			</b>
-			by
+			por
 			<a href="https://scholar.google.com/citations?user=_wHMGkUAAAAJ&amp;hl=en">Marcel Salathé</a>
-			(epidemiologist)
+			(epidemiólogo)
 			&
 			<a href="https://ncase.me/">Nicky Case</a>
-			(art/code)
+			(arte/código)
 		</div>
 	</div>
 </div>
 
-"The only thing to fear is fear itself" was stupid advice.
+«Sólo tenemos que tener miedo al propio miedo» fue un consejo estúpido.
 
-Sure, don't hoard toilet paper – but if policymakers fear fear itself, they'll downplay real dangers to avoid "mass panic". Fear's not the problem, it's how we *channel* our fear. Fear gives us energy to deal with dangers now, and prepare for dangers later.
+Por supuesto, no hay que hacer acopio del papel higiénico, pero si los responsables públicos tienen miedo al miedo, tenderán a minimizar los peligros reales para evitar la «histeria colectiva». El problema no es el miedo, es cómo *canalizamos* nuestro miedo. El miedo nos da fuerzas para enfrentarnos a los peligros actuales y para prepararnos para los futuros.
 
-Honestly, we (Marcel, epidemiologist + Nicky, art/code) are worried. We bet you are, too! That's why we've channelled our fear into making these **playable simulations**, so that *you* can channel your fear into understanding:
+Sinceramente, nosotros (Marcel, epidemiólogo + Nicky, arte/código) estamos preocupados. ¡Y pensamos que tú también lo estarás! Por eso hemos canalizado nuestro miedo en hacer estas **simulaciones interactivas**, para que *tu* puedes canalizar tu miedo en comprensión:
 
-* **The Last Few Months** (epidemiology 101, SEIR model, R & R<sub>0</sub>)
-* **The Next Few Months** (lockdowns, contact tracing, masks)
-* **The Next Few Years** (loss of immunity? no vaccine?)
+* **Los últimos meses** (introducción a la epidemiología, modelo SEIR, R y R<sub>0</sub>).
+* **Los próximos meses** (confinamientos, rastreo de contactos, mascarillas).
+* **Los próximos años** (¿pérdida de inmunidad? ¿ausencia de vacunas?).
 
-This guide (published May 1st, 2020. click this footnote!→[^timestamp]) is meant to give you hope *and* fear. To beat COVID-19 **in a way that also protects our mental & financial health**, we need optimism to create plans, and pessimism to create backup plans. As Gladys Bronwyn Stern once said, *“The optimist invents the airplane and the pessimist the parachute.”*
+El objetivo de esta guía (publicada el 1 de mayo de 2020, haga clic en esta nota al pie de página→[^timestamp]) es darle esperanza *y* miedo. Para ganar a la COVID-19 **de una forma que también proteja nuestra salud mental y financiera**, necesitamos optimismo para  crear planes, y pesimismo para crear planes de contingencia. Como Gladys Bronwyn Stern dijo una vez: *«El optimismo inventa el avión y el pesimismo el paracaídas».*
 
-[^timestamp]: These footnotes will have sources, links, or bonus commentary. Like this commentary!
+[^timestamp]: Estas notas al pie de página mostrarán fuentes, enlaces y comentarios extra. ¡Como este comentario!
     
-    **This guide was published on May 1st, 2020.** Many details will become outdated, but we're confident this guide will cover 95% of possible futures, and that Epidemiology 101 will remain forever useful.
+    **Esta guía se publicó el 1 de mayo de 2020.** Muchos de los detalles caducarán eventualmente, pero estamos seguros de que la guía cubre el 95% de los futuros posibles, y que la introducción a la epidemiología será un recurso útil perenne.
 
-So, buckle in: we're about to experience some turbulence.
+Abróchese el cinturón: vamos a sufrir algunas turbulencias.
 
 <div class="section chapter">
     <div>
 		<img src="banners/curve.png" height=480 style="position: absolute;"/>
-        <div>The Last Few Months</div>
+        <div>Los próximos meses</div>
     </div>
 </div>
 
-Pilots use flight simulators to learn how not to crash planes.
+Los pilotos usan simuladores de vuelo para aprender cómo evitar que los aviones se estrellen.
 
-**Epidemiologists use epidemic simulators to learn how not to crash humanity.**
+**Los epidemiólogos usan simuladores para aprender cómo evitar que la humanidad se estrelle.**
 
-So, let's make a very, *very* simple "epidemic flight simulator"! In this simulation, <icon i></icon> Infectious people can turn <icon s></icon> Susceptible people into more <icon i></icon> Infectious people:
+Así que, venga, ¡hagamos un "simulador de vuelo de epidemias" muy, *muy* simple! En esta simulación, las personas <icon i></icon> Infecciosas pueden convertir a las personas <icon s></icon> Susceptibles en aún más personas <icon i></icon> Infecciosas:
 
 ![](pics/spread.png)
 
-It's estimated that, *at the start* of a COVID-19 outbreak, the virus jumps from an <icon i></icon> to an <icon s></icon> every 4 days, *on average*.[^serial_interval] (remember, there's a lot of variation)
+Se estima que, *al comienzo* de un brote de la COVID-19, el virus salta de una <icon i></icon> a una <icon s></icon> cada 4 días, *en promedio*.[^serial_interval] (recuerde, hay mucha variabilidad)
 
-[^serial_interval]: “The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Disclaimer: Early release articles are not considered as final versions)
+[^serial_interval]: «The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)». [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Aviso: La publicación temprana de estos artículos no están consideradas como versiones finales)
 
-If we simulate "double every 4 days" *and nothing else*, on a population starting with just 0.001% <icon i></icon>, what happens? 
+Si simulamos que se «doble cada cada 4 días» *y nada más*, en una población que al comienzo sólo tiene 0.001% <icon i></icon>, ¿qué ocurre?
 
-**Click "Start" to play the simulation! You can re-play it later with different settings:** (technical caveats: [^caveats])
+**¡Haga clic al botón "Iniciar" para comenzar la simulación! Podrás reiniciarla luego con diferentes ajustes:** (consideración técnica: [^caveats])
 
-[^caveats]: **Remember: all these simulations are super simplified, for educational purposes.**
+[^caveats]: **Recuerde: todas estas simulaciones están muy simplificadas para propósito didáctico.**
     
-    One simplification: When you tell this simulation "Infect 1 new person every X days", it's actually increasing # of infected by 1/X each day. Same for future settings in these simulations – "Recover every X days" is actually reducing # of infected by 1/X each day.
+    Una simplificación: Cuando le dices a la simulación «Infecta 1 persona cada X días», en realidad se está incrementando el número de infectados por 1/X cada día. Lo mismo para los ajustes futuros en estas simulaciones – «Recuperados cada X días» en realidad se reduce el número de infectados en 1/X por día.
     
-    Those *aren't* exactly the same, but it's close enough, and for educational purposes it's less opaque than setting the transmission/recovery rates directly.
+    En realidad, *no son* exactamente lo mismo, pero se aproximan lo suficiente y para propósitos didácticos es menos opaco que ajustar las tasas de transmisión y recuperación directamente.
 
 <div class="sim">
 		<iframe src="sim?stage=epi-1" width="800" height="540"></iframe>
 </div>
 
-This is the **exponential growth curve.** Starts small, then explodes. "Oh it's just a flu" to "Oh right, flus don't create *mass graves in rich cities*". 
+Esta es la **curva de crecimiento exponencial.** Comienza pequeña y en determinado momento explota. De «Oh, es cómo la gripe» a «Oh claro, la gripe no crea *fosas comunes en ciudades ricas*».
 
 ![](pics/exponential.png)
 
-But, this simulation is wrong. Exponential growth, thankfully, can't go on forever. One thing that stops a virus from spreading is if others *already* have the virus:
+Pero esta simulación no es correcta. El crecimiento exponencial, afortunadamente, no puede continuar indefinidamente. Una cosa que para el contagio del virus es cuando *ya hay* personas que tienen el virus:
 
 ![](pics/susceptibles.png)
 
-The more <icon i></icon>s there are, the faster <icon s></icon>s become <icon i></icon>s, **but the fewer <icon s></icon>s there are, the *slower* <icon s></icon>s become <icon i></icon>s.**
+Cuanto más <icon i></icon>s hay, más rápido los <icon s></icon>s se vuelven <icon i></icon>s, **pero cuantos menos <icon s></icon>s haya, más *lento* los <icon s></icon>s se convetirán en <icon i></icon>s.**
 
-How's this change the growth of an epidemic? Let's find out:
+¿Cómo cambia ésto el crecimiento de la epidemia? Vamos a comprobarlo:
 
 <div class="sim">
 		<iframe src="sim?stage=epi-2" width="800" height="540"></iframe>
 </div>
 
-This is the "S-shaped" **logistic growth curve.** Starts small, explodes, then slows down again.
+Es esta la **curva de crecimiento logística** con forma de S. Comienza plana, luego explota y luego se aplana otra vez.
 
-But, this simulation is *still* wrong. We're missing the fact that <icon i></icon> Infectious people eventually stop being infectious, either by 1) recovering, 2) "recovering" with lung damage, or 3) dying.
+Pero. Esta simulación *todavía* no es correcta. No estamos teniendo en cuenta que las personas <icon i></icon> Infecciosas dejan de serlo en determinado momento, ya sea porque 1) se recuperan, 2) se "recuperan" con daños pulmonares, o 3) se mueren.
 
-For simplicity's sake, let's pretend that all <icon i></icon> Infectious people become <icon r></icon> Recovered. (Just remember that in reality, some are dead.) <icon r></icon>s can't be infected again, and let's pretend – *for now!* – that they stay immune for life.
+Para simplificar la cuestión, vamos a asumir que todas las personas <icon i></icon> Infecciosas pasan a <icon r></icon> Recuperadas. (Pero recuerda que en realidad algunas fallecen). Las <icon r></icon>s no pueden infectarse de nuevo, y vamos a asumir – *¡por ahora!* – que serán inmunes el resto de sus vidas.
 
-With COVID-19, it's estimated you're <icon i></icon> Infectious for 10 days, *on average*.[^infectiousness] That means some folks will recover before 10 days, some after. **Here's what that looks like, with a simulation *starting* with 100% <icon i></icon>:**
+Con la COVID-19, se estima que eres <icon i></icon> Infeccioso durante 10 días, *en promedio*.[^infectiousness] Eso significa que algunas personas se recuperan antes de 10 días y otras después. **Aquí se ve como es eso, con una simulación que *comienza* con un 100% de <icon i></icon>:**
 
-[^infectiousness]: “The median communicable period \[...\] was 9.5 days.” [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Yes, we know "median" is not the same as "average". For simplified educational purposes, close enough.
+[^infectiousness]: «The median communicable period \[...\] was 9.5 days». [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Sí, sabemos que la «mediana» no es lo mismo que la «media». Pero para propósitos educativos, se parecen bastante.
 
 <div class="sim">
 		<iframe src="sim?stage=epi-3" width="800" height="540"></iframe>
 </div>
 
-This is the opposite of exponential growth, the **exponential decay curve.**
+Esto es lo contrario de un crecimiento exponencial, la **curva de decaimiento exponencial.**
 
-Now, what happens if you simulate S-shaped logistic growth *with* recovery?
+Y ahora, ¿qué ocurre si simulas un crecimiento logístico con forma de S *con* recuperación?
 
 ![](pics/graphs_q.png)
 
-Let's find out.
+Vamos a comprobarlo.
 
-<b style='color:#ff4040'>Red curve</b> is *current* cases <icon i></icon>,    
-<b style='color:#999999'>Gray curve</b> is *total* cases (current + recovered <icon r></icon>),
-starts at just 0.001% <icon i></icon>:
+La <b style='color:#ff4040'>curva roja</b> son los casos *actuales* <icon i></icon>,    
+La <b style='color:#999999'>curva gris</b> son los casos *totales* (actuales + recuperados <icon r></icon>),
+comienzan con solo 0.001% <icon i></icon>:
 
 <div class="sim">
 		<iframe src="sim?stage=epi-4" width="800" height="540"></iframe>
 </div>
 
-And *that's* where that famous curve comes from! It's not a bell curve, it's not even a "log-normal" curve. It has no name. But you've seen it a zillion times, and beseeched to flatten.
+¡Y *de ahí* es de donde viene la famosa curva! No es una curva de Bell, ni siquiera una curva «log-normal». No tiene nombre. Pero la habrás visto un millón de veces e implorado que se aplane.
 
-This is the the **SIR Model**,[^sir]    
-(<icon s></icon>**S**usceptible <icon i></icon>**I**nfectious <icon r></icon>**R**ecovered)      
-the *second*-most important idea in Epidemiology 101:
+Éste es el **modelo SIR**,[^sir]    
+(<icon s></icon>**S**usceptibles <icon i></icon>**I**nfecciosos <icon r></icon>**R**ecuperados)      
+la *segunda* idea más importante en la Introducción a la Epidemiología:
 
-[^sir]: For more technical explanations of the SIR Model, see [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-sir.html#) and [Wikipedia](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model)
+[^sir]: Para más detalles técnicos del modelo SIR, consultar [Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-sir.html#) y [Wikipedia](https://es.wikipedia.org/wiki/Modelo_SIR)
 
 ![](pics/sir.png)
 
-**NOTE: The simulations that inform policy are way, *way* more sophisticated than this!** But the SIR Model can still explain the same general findings, even if missing the nuances.
+**NOTA: Las simulaciones que se usan para tomar decisiones públicas son mucho, *mucho* más sofisticadas que ésta!** Pero el modelo SIR puede explicar los mismos fenómenos generales, aún sin los matices.
 
-Actually, let's add one more nuance: before an <icon s></icon> becomes an <icon i></icon>, they first become <icon e></icon> Exposed. This is when they have the virus but can't pass it on yet – infect*ed* but not yet infect*ious*.
+Bueno, vamos a añadir otro matiz más: antes de que <icon s></icon> se convierta en <icon i></icon>, antes se convierten en personas <icon e></icon> Expuestas. Esto ocurre cuando tienen el virus pero aún no pueden transmitirlo – infec*tadas* pero todavía no son infec*ciosas*.
 
 ![](pics/seir.png)
 
-(This variant is called the **SEIR Model**[^seir], where the "E" stands for <icon e></icon> "Exposed". Note this *isn't* the everyday meaning of "exposed", when you may or may not have the virus. In this technical definition, "Exposed" means you definitely have it. Science terminology is bad.)
+(Esta variante es el llamado **modelo SEIR**[^seir], donde «E» son las personas <icon e></icon> «Expuestas». Ten en cuenta que este *no es* el significado habitual de «expuesto», cuando puedes o puedes no tener el virus. En esta definición técnica, «Expuesto» significa que lo tienes con seguridad. La terminología científica es mala).
 
-[^seir]: For more technical explanations of the SEIR Model, see [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-seir.html) and [Wikipedia](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SEIR_model)
+[^seir]: Para más explicaciones ténicas del modelo SEIR, consultar [Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-seir.html) and [Wikipedia](https://es.wikipedia.org/wiki/Modelaje_matemático_de_epidemias#Modelo_SEIR)
 
-For COVID-19, it's estimated that you're <icon e></icon> infected-but-not-yet-infectious for 3 days, *on average*.[^latent] What happens if we add that to the simulation?
+Para la COVID-19, se estima que las personas son <icon e></icon> infectadas-pero-aún-no-infecciosas durante 3 días, *de promedio*.[^latent] ¿Qué ocurre si añadimos eso a la simulación?
 
-[^latent]: “Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset” (translation: Assuming symptoms start at 5 days, infectiousness starts 2 days before = Infectiousness starts at 3 days) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
+[^latent]: «Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset» (traducción: Si asumimos que los síntomas comienzan a los 5 días, la fase infecciosa comienza 2 días antes = la contagiosidad comienza a los 3 días) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
 
-<b style='color:#ff4040'>Red <b style='color:#FF9393'>+ Pink</b> curve</b> is *current* cases (infectious <icon i></icon> + exposed <icon e></icon>),    
-<b style='color:#888'>Gray curve</b> is *total* cases (current + recovered <icon r></icon>):
+La <b style='color:#ff4040'>curva roja <b style='color:#FF9393'>+ rosa</b></b> son casos *actuales* (infecciosos <icon i></icon> + expuestos <icon e></icon>),    
+La <b style='color:#888'>curva gris</b> son casos *totales* (actuales + recuperados <icon r></icon>):
 
 <div class="sim">
 		<iframe src="sim?stage=epi-5" width="800" height="540"></iframe>
 </div>
 
-Not much changes! How long you stay <icon e></icon> Exposed changes the ratio of <icon e></icon>-to-<icon i></icon>, and *when* current cases peak... but the *height* of that peak, and total cases in the end, stays the same.
+¡Sin grandes cambios! El tiempo en el que se está <icon e></icon> Expuesto cambia con la relación de <icon e></icon>-a-<icon i></icon>, y *cúando* ocurre el pico de casos actuales... pero la *altura* del pico, y el total de casos, no cambian.
 
-Why's that? Because of the *first*-most important idea in Epidemiology 101:
+¿Por qué? Por la *primera* y más importante idea de la Introducción a la Epidemiología:
 
 ![](pics/r.png)
 
-Short for "Reproduction number". It's the *average* number of people an <icon i></icon> infects *before* they recover (or die).
+Abreviación de «número reproductivo». Es el número de personas *promedio* a las que una <icon i></icon> contagia *antes* de recuperarse (o fallecer).
 
 ![](pics/r2.png)
 
-**R** changes over the course of an outbreak, as we get more immunity & interventions.
+**R** cambia en el transcurso de una epidemia, según se obtiene más inmunidad y hay más intervenciones.
 
-**R<sub>0</sub>** (pronounced R-nought) is what R is *at the start of an outbreak, before immunity or interventions*. R<sub>0</sub> more closely reflects the power of the virus itself, but it still changes from place to place. For example, R<sub>0</sub> is higher in dense cities than sparse rural areas.
+**R<sub>0</sub>** es el número R *al comienzo de un brote, antes de la inmunidad o las intervenciones*. R<sub>0</sub> refleja sobre todo el poder del propio virus, aunque cambia de un lugar a otro. Por ejemplo, R<sub>0</sub> es mayor en ciudades de gran densidad que en las áreas rurales y dispersas.
 
-(Most news articles – and even some research papers! – confuse R and R<sub>0</sub>. Again, science terminology is bad)
+(La mayoría de los artículos periodísticos – ¡incluso algunos artículos científicos! – confunden R y R<sub>0</sub>. De nuevo, la terminología científica es mala).
 
-The R<sub>0</sub> for "the" seasonal flu is around 1.28[^r0_flu]. This means, at the *start* of a flu outbreak, each <icon i></icon> infects 1.28 others *on average.* (If it sounds weird that this isn't a whole number, remember that the "average" mom has 2.4 children. This doesn't mean there's half-children running about.)
+El R<sub>0</sub> para «la» gripe estacional es de 1.28[^r0_flu]. Esto implica que, al *comienzo* de la epidemia, cada <icon i></icon> contagia a otras 1.28 *de media.* (Si le parece extraño que no sea un número entero, recuerde que una madre «promedio» tiene 2.4 hijos. Lo que no significa que tengan medio bebé gateando a su alrededor).
 
 [^r0_flu]: “The median R value for seasonal influenza was 1.28 (IQR: 1.19–1.37)” [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
 
-The R<sub>0</sub> for COVID-19 is estimated to be around 2.2,[^r0_covid] though one *not-yet-finalized* study estimates it was 5.7(!) in Wuhan.[^r0_wuhan]
+El R<sub>0</sub> para la COVID-19 se estima en 2.2,[^r0_covid] aunque un estudio *aún-no-finalizado* lo estima en 5.7(!) en Wuhan.[^r0_wuhan]
 
-[^r0_covid]: “We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8)” [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
+[^r0_covid]: «We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8)» [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
 
-[^r0_wuhan]: “we calculated a median R0 value of 5.7 (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
+[^r0_wuhan]: «we calculated a median R0 value of 5.7 (95% CI 3.8–8.9)» [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
 
-In our simulations – *at the start & on average* – an <icon i></icon> infects someone every 4 days, over 10 days. "4 days" goes into "10 days" two-and-a-half times. This means – *at the start & on average* – each <icon i></icon> infects 2.5 others. Therefore, R<sub>0</sub> = 2.5. (caveats:[^r0_caveats_sim])
+En nuestras simulaciones – *al inicio y de media* – una <icon i></icon> infecta a alguien cada 4 días, durante 10 días. «4 días» pasan a ser «10 days» dos veces y media. Esto significa que – *al incio y de media* – cada <icon i></icon> contagia a otras 2.5 personas. Por tanto, R<sub>0</sub> = 2.5. (matizaciones:[^r0_caveats_sim])
 
-[^r0_caveats_sim]: This is pretending that you're equally infectious all throughout your "infectious period". Again, simplifications for educational purposes.
+[^r0_caveats_sim]: Esto asume que una persona es igual de contagiosa durante toda el periodo infeccioso. De nuevo, es una simplificación en aras de la didáctica.
 
-**Play with this R<sub>0</sub> calculator, to see how R<sub>0</sub> depends on recovery time & new-infection time:**
+**Juegue con esta calculadora de R<sub>0</sub>, para ver como R<sub>0</sub> depende del tiempo de recuperación y el tiempo de nuevo contagio:**
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6a&format=calc" width="285" height="255"></iframe>
 </div>
 
-But remember, the fewer <icon s></icon>s there are, the *slower* <icon s></icon>s become <icon i></icon>s. The *current* reproduction number (R) depends not just on the *basic* reproduction number (R<sub>0</sub>), but *also* on how many people are no longer <icon s></icon> Susceptible. (For example, by recovering & getting natural immunity.)
+Pero recuerde, cuantas menos personas <icon s></icon>s haya, más *lento* se convertirán las <icon s></icon>s en <icon i></icon>s. El número de reproducción *actual* (R) depende no solo del número de reproducción *básico* (R<sub>0</sub>), sino *también* de cuantas personas ya no sea <icon s></icon> Susceptibles. (Por ejemplo, debido a la recuperación y obteniendo inmunidad natural).
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6b&format=calc" width="285" height="390"></iframe>
 </div>
 
-When enough people have immunity, R < 1, and the virus is contained! This is called **herd immunity**. For flus, herd immunity is achieved *with a vaccine*. Trying to achieve "natural herd immunity" by letting folks get infected is a *terrible* idea. (But not for the reason you may think! We'll explain later.)
+Cuando haya un número suficiente de personas con inmunidad, R < 1, y el virus esté contenido, esto se llama **inmunidad de grupo**. Para la gripe la inmunidad de grupo se consigue *con una vacuna*. Intentar alcanzar la «inmunidad de grupo natural» dejando que las personas se contagien es una idea *horrible*. (¡Pero no por lo que puedes estar pensando! Luego lo explicamos).
 
-Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, and the herd immunity threshold:
+Ahora, juguemos con el modelo SEIR otra vez, pero mostrando R<sub>0</sub>, R en el tiempo, y el umbral de la inmunidad de grupo:
 
 <div class="sim">
 		<iframe src="sim?stage=epi-7" width="800" height="540"></iframe>
 </div>
 
-**NOTE: Total cases *does not stop* at herd immunity, but overshoots it!** And it crosses the threshold *exactly* when current cases peak. (This happens no matter how you change the settings – try it for yourself!)
+**NOTA: ¡Los casos totales *no se detienen* al llegar a la inmunidad de grupo, sino que lo exceden!** Y cruza el umbral *exactamente* cuando se llega al pico de casos actuales. (Eso ocurre cualesquiera que sean los ajustes – ¡inténtalo tú mismo!)
 
-This is because when there are more non-<icon s></icon>s than the herd immunity threshold, you get R < 1. And when R < 1, new cases stop growing: a peak.
+Esto pasa porque cuando hay más no-<icon s></icon>s que el umbral de inmunidad de grupo, tenemos R < 1. Y cuando R < 1, el número de nuecos casos deja de crecer: un pico.
 
-**If there's only one lesson you take away from this guide, here it is** – it's an extremely complex diagram so please take time to fully absorb it:
+**Si solo hay una lección que llevarse de esta guía, aquí está** – es un diagrama extremadamente complejo así que por favor, tómate tu tiempo para comprenderlo en su totalidad:
 
 ![](pics/r3.png)
 
-**This means: we do NOT need to catch all transmissions, or even nearly all transmissions, to stop COVID-19!**
+**Esto significa: ¡NO necesitamos detener todos los contagios, o casi todos los contagios, para detener a la COVID-19!**
 
-It's a paradox. COVID-19 is extremely contagious, yet to contain it, we "only" need to stop more than 60% of infections. 60%?! If that was a school grade, that's a D-. But if R<sub>0</sub> = 2.5, cutting that by 61% gives us R = 0.975, which is R < 1, virus is contained! (exact formula:[^exact_formula])
+Es una paradoja. La COVID-19 es extremadamente contagiosa, pero para contenerla, «solo» necesitamos detener más del 60% de las infecciones. ¿!El 60%!? Si fuera una nota de la escuela, sería un 6. Pero si R<sub>0</sub> = 2.5, disminuir eso un 61% nos da R = 0.975, que es R < 1, ¡el virus está contenido! (exact formula:[^exact_formula])
 
-[^exact_formula]: Remember R = R<sub>0</sub> * the ratio of transmissions still allowed. Remember also that ratio of transmissions allowed = 1 - ratio of transmissions *stopped*.
+[^exact_formula]: Recuerda R = R<sub>0</sub> * la tasa de contagios aún permitidos. Recuerda también que la tasa de contagios permitidos = 1 - tasa de contagios *evitados*.
     
     Therefore, to get R < 1, you need to get R<sub>0</sub> * TransmissionsAllowed < 1. 
     
