@@ -358,7 +358,7 @@ Pero espera... ¿Taiwan y Corea del Sur no han contenido *ya* la COVID-19? ¿Dur
 
 ¿Cómo?
 
-###Scenario 4: Probar, Rastrear, Aislar
+###Escenario 4: Probar, Rastrear, Aislar
 
 *«Por supuesto, *podríamos* haber hecho como Taiwán y Corea del Sur al inicio, pero ahora ya es muy tarde. Desaprovechamos el comienzo».*
 
@@ -470,69 +470,69 @@ Pero, ¿qué ocurre si *aún así* las cosas van mal? Ya han ido mal. Eso es mie
 
 Los pesismistas inventan los paracaídas.
 
-###Scenario 4+: Masks For All, Summer, Circuit Breakers
+###Escenario 4+: Máscarillas para todos, verano, cortocircuitos
 
-What if R<sub>0</sub> is way higher than we thought, and the above interventions, even with mild distancing, *still* aren't enough to get R < 1?
+¿Qué pasa si R<sub>0</sub> es mucho mayor de lo que pensamos, y las intervenciones anteriores, incluso con distanciamiento leve, *aún* no son suficientes para que R < 1?
 
-Remember, even if we can't get R < 1, reducing R still reduces the "overshoot" in total cases, thus saving lives. But still, R < 1 is the ideal, so here's a few other ways to reduce R:
+Recuerde, incluso si no podemos hacer que R < 1, la reducción de R disminuye el «exceso» de casos totales, y por lo tanto salva vidas. Pero aún así, R < 1 es lo ideal, así que aquí hay otras formas de reducir R:
 
-**Masks For All:**
+**Mascarillas para todos:**
 
-*"Wait,"* you might ask, *"I thought face masks don't stop you from getting sick?"*
+*«Espera»,* podrías preguntarte, *«¿Las mascarillas no evitan que no me ponga malo?*
 
-You're right. Masks don't stop you from getting sick[^incoming]... they stop you from getting *others* sick.
+Cierto. Las mascarillas no impiden que enferme[^incoming]... impiden que *otras* personas enfermen.
 
-[^incoming]: “None of these surgical masks exhibited adequate filter performance and facial fit characteristics to be considered respiratory protection devices.” [Tara Oberg & Lisa M. Brosseau](https://www.sciencedirect.com/science/article/pii/S0196655307007742)
+[^incoming]: «None of these surgical masks exhibited adequate filter performance and facial fit characteristics to be considered respiratory protection devices». [Tara Oberg y Lisa M. Brosseau](https://www.sciencedirect.com/science/article/pii/S0196655307007742)
 
-[^outgoing]: “The overall 3.4 fold reduction [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/)
+[^outgoing]: «The overall 3.4 fold reduction [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission». [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/)
 
-[^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) See Table 1: a 100% cotton T-shirt has around 2/3 the filtration efficiency as a surgical mask, for the two bacterial aerosols they tested.
+[^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) Véase la tabla 1: una camiseta de algodón 100% tiene 2/3 de la eficiencia de transmisión de una mascarilla quirúrgica, para los dos aerosoles que probaron.
 
 ![](pics/masks.png)
 
-To put a number on it: surgical masks *on the sick person* reduce cold & flu viruses in aerosols by 70%.[^outgoing] Reducing transmissions by 70% would be as large an impact as a lockdown!
+Para ponerlo en números: las mascarillas quirúrgicas *en la persona enferma* reduce la cantidad de virus de la gripe y el resfriado en los aerosoles en un 70%.[^outgoing] ¡La reducción de contagios en un 70% tendría el mismo impacto que un confinamiento!
 
-However, we don't know for sure the impact of masks on COVID-19 *specifically*. In science, one should only publish a finding if you're 95% sure of it. (...should.[^replication]) Masks, as of May 1st 2020, are less than "95% sure".
+Sin embargo, no estamos seguros del impacto de las mascarillas en la COVID-19 *en concreto*. En ciencia, solo se debe publicar un descubrimiento si se está al menos un 95% seguro de él. (...debe.[^replication]) Las mascarillas, a día 1 de mayo de 2020, están por debajo de ese «95% seguro».
 
-[^replication]: Any actual scientist who read that last sentence is probably laugh-crying right now. See: [p-hacking](https://en.wikipedia.org/wiki/Data_dredging), [the replication crisis](https://en.wikipedia.org/wiki/Replication_crisis))
+[^replication]: Cualquier científico de verdad que lea la última frase estará riéndose-llorando ahora mismo. Ver: [p-hacking](https://en.wikipedia.org/wiki/Data_dredging), [la crisis de replicación](https://es.wikipedia.org/wiki/Crisis_de_replicación))
 
-However, pandemics are like poker. **Make bets only when you're 95% sure, and you'll lose everything at stake.** As a recent article on masks in the British Medical Journal notes,[^precautionary] we *have* to make cost/benefit analyses under uncertainty. Like so:
+Sin embargo, las pandemias son como el póker. **Apuesta solo cuando estés seguro al 95% y terminarás perdiéndolo todo.** Como ha apuntado un reciente artículo sobre las mascarillas en el British Medical Journal,[^precautionary] *tenemos* que hacer análisis de riesgo/beneficio en la incertidumbre. Como éste:
 
-[^precautionary]: “It is time to apply the precautionary principle” [Trisha Greenhalgh et al \[PDF\]](https://www.bmj.com/content/bmj/369/bmj.m1435.full.pdf)
+[^precautionary]: «It is time to apply the precautionary principle» [Trisha Greenhalgh et al \[PDF\]](https://www.bmj.com/content/bmj/369/bmj.m1435.full.pdf)
 
-Cost: If homemade cloth masks (which are ~2/3 as effective as surgical masks[^homemade]), super cheap. If surgical masks, more expensive but still pretty cheap.
+Riesgo: Si alguien lleva mascarillas caseras (que son ~2/3 tan efectivas como las mascarillas quirúrgicas[^homemade]), súper baratas. Y también si hay mascarillas quirúrgicas, más caras pero aún así asequibles.
 
-Benefit: Even if it's a 50–50 chance of surgical masks reducing transmission by 0% or 70%, the average "expected value" is still 35%, same as a half-lockdown! So let's guess-timate that surgical masks reduce R by up to 35%, discounted for our uncertainty. (Again, you can challenge our assumptions by turning the sliders up/down)
+Beneficio: Incluso si hay un 50-50 de probabilidad de que las mascarillas quirúrgicas reduzcan los contagios entre un 0% y 70%, el «valor esperado» medio aún es el 35%, ¡lo mismo que la mitad de un confinamiento! Así que vamos a asumir que las mascarillas quirúrgicas reducen R en un 35%, descontando nuestra incertidumbre. (De nuevo, puedes cuestionar nuestras suposiciones cambiando los ajustes).
 
 <div class="sim">
 		<iframe src="sim?stage=int-6a&format=calc" width="285" height="380"></iframe>
 </div>
 
-(other arguments for/against masks:[^mask_args])
+(otros argumentos a favor y en contra de las mascarillas:[^mask_args])
 
-[^mask_args]: **"We need to save supplies for hospitals."** *Absolutely agreed.* But that's more of an argument for increasing mask production, not rationing. In the meantime, we can make cloth masks.
+[^mask_args]: **«Necesitamos los suministros para los hospitales».** *No hay discusión.* Pero ése es un argumento para incrementar la producción, no para su racionamiento. Mientras tanto, podemos fabricar mascarillas caseras.
 
-   **"They're hard to wear correctly."** It's also hard to wash your hands according to the WHO Guidelines – seriously, "Step 3) right palm over left dorsum"?! – but we still recommend handwashing, because imperfect is still better than nothing.
+   **«Son difíciles de llevar correctamente».** También es difícil lavarnos las manos suguiendo las instrucciones de la OMS – en serio, ¿!«Paso 3) palma derecha contra el dorso de la mano izquierda»?! – pero aún así recomendamos el lavado de las manos, porque lo imperfecto es mejor que nada.
    
-   **"It'll make people more reckless with handwashing & social distancing."** Sure, and safety belts make people ignore stop signs, and flossing makes people eat rocks. But seriously, we'd argue the opposite: masks are a *constant physical reminder* to be careful – and in East Asia, masks are also a symbol of solidarity!
+   **«Harán que las personas sean más descuidadas con el lavado de manos y el distanciamiento social».** Claro, los cinturones de seguridad hacen que las personas ignoren las señales de stop, y la limpieza con hilo dental hace que las personas comamos rocas. En serio, opinamos todo lo contrario: las mascarillas son un *recordatorio físico constante* de ser precavidos – ¡y en el este de Asia, las mascarillas también son un símbolo de solidaridad!
     
     
 
-Masks *alone* won't get R < 1. But if handwashing & "Test, Trace, Isolate" only gets us to R = 1.10, having just 1/3 of people wear masks would tip that over to R < 1, virus contained!
+Las mascarillas *por si solas* no hacen que R < 1. Pero si el lavado de manos y «Probar, rastrear, aislar» sólo nos lleva a R = 1.10, el que 1/3 de las personas lleven mascarillas hacen que R < 1, y ¡el virus está contenido!
 
-**Summer:**
+**Verano:**
 
-Okay, this isn't an "intervention" we can control, but it will help! Some news outlets report that summer won't do anything to COVID-19. They're half right: summer won't get R < 1, but it *will* reduce R.
+Vale, esto no es una «intervención» que podamos controlar, ¡pero será de ayuda! Algunos medios informan de que el verano no tendrá efecto con la COVID-19. Tienen solo la mitad de la razón: el verano no hará que R < 1, pero *reducirá* R.
 
-For COVID-19, every extra 1° Celsius (2.2° Fahrenheit) makes R drop by 1.2%.[^heat] The summer-winter difference in New York City is 15°C (60°F), so summer will make R drop by 18%.
+Para la COVID-19, cada 1° Celsius (2.2° Fahrenheit) adicional hace que R disminuya un 1.2%.[^heat] La diferencia entre el verano y el invierno en la ciudad de New York es de 15°C (60°F), así que el verano reducirá R en un 18%.
 
-[^heat]: “One-degree Celsius increase in temperature [...] lower[s] R by 0.0225” and “The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)
+[^heat]: «One-degree Celsius increase in temperature [...] lower[s] R by 0.0225» y «The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2». [Wang, Jingyuan y Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)
 
 <div class="sim">
 		<iframe src="sim?stage=int-6b&format=calc" width="285" height="220"></iframe>
 </div>
 
-Summer alone won't make R < 1, but if we have limited resources, we can scale back some interventions in the summer – so we can scale them *higher* in the winter.
+El verano por si solo no hará que R < 1, pero si tenemos recursos limitados, podemos desescalar algunas intervenciones en el verano – para escalarlas de nuevo durante el invierno.
 
 **A "Circuit Breaker" Lockdown:**
 
