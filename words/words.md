@@ -2,14 +2,14 @@
     <div>
     	<iframe id="splash" width="960" height="480" src="banners/splash.html"></iframe>
         <div style="top: 70px;font-size: 75px;font-weight: bold;">
-        	¿Qué ocurrirá ahora?
+        	¿Qué pasará ahora?
        	</div>
 		<div style="font-weight: 500;top: 140px;left: 10px;font-size: 29px;">
 			Los futuros de la COVID-19, explicados con simulaciones
 		</div>
 		<div style="font-weight: 100;top: 189px;left: 10px;font-size: 19px;line-height: 21px;">
 			<b>
-				🕐 30 min ver/leer
+				🕐 30 min lectura/juego
 				&nbsp;&middot;&nbsp;
 			</b>
 			por
