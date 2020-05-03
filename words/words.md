@@ -426,49 +426,49 @@ Pero ¿qué pasa con las personas que no tienen teléfonos inteligentes? ¿O con
 
 El aislamiento de los casos *sintomáticos* reduciría R en un 40%, y poniendo en cuarentena a sus contactos *pre/a-sintomáticos* reduciría R hasta en un 50%[^oxford]:
 
-[^oxford]: From the same Oxford study that first recommended apps to fight COVID-19: [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) See Figure 2. Assuming R<sub>0</sub> = 2.0, they found that:    
+[^oxford]: Del mismo estudio de Oxford que primero recomendó el uso de aplicaciones para rastrear contactos en el caso de la COVID-19: [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) Véase la figura 2. Si se asume que R<sub>0</sub> = 2.0, encontraron que:    
     
-    * Symptomatics contribute R = 0.8 (40%)
-    * Pre-symptomatics contribute R = 0.9 (45%)
-    * Asymptomatics contribute R = 0.1 (5%, though their model has uncertainty and it could be much lower)
-    * Environmental stuff like doorknobs contribute R = 0.2 (10%)
+    * Los casos sintomáticos contribuyen R = 0.8 (40%).
+    * Los casos pre-sintomáticos contribuyen R = 0.9 (45%).
+    * Los casos asintomáticos contribuyen R = 0.1 (5%, aunque su modelo tiene mucha incertidumbre y podría ser aún menos).
+    * Cosas ambientales como pomos de puertas contribuyen R = 0.2 (10%)
 
-    And add up the pre- & a-symptomatic contacts (45% + 5%) and you get 50% of R!
+    Y añade a los contactos pre- y a-sintomáticos (45% + 5%) y ¡ya tienes el 50% de R!
 
 <div class="sim">
 		<iframe src="sim?stage=int-4a&format=calc" width="285" height="340"></iframe>
 </div>
 
-Thus, even without 100% contact quarantining, we can get R < 1 *without a lockdown!* Much better for our mental & financial health. (As for the cost to folks who have to self-isolate/quarantine, *governments should support them* – pay for the tests, job protection, subsidized paid leave, etc. Still way cheaper than intermittent lockdown.)
+Así que, incluso sin la cuarentena del 100% de los contactos, podemos hacer que R < 1 *¡sin confinamiento!* Mucho mejor para nuestra salud mental y financiera. (El coste de las personas que se tienen que auto-aislar o poner en cuarentena *debería ser a cargo de los gobiernos* – el pago de las pruebas, la protección del trabajo, bajas cubiertas, etc. Es mucho más barato que los confinamientos intermitentes).
 
-We then keep R < 1 until we have a vaccine, which turns susceptible <icon s></icon>s into immune <icon r></icon>s. Herd immunity, the *right* way:
+Cuando mantenemos R < 1 hasta que tengamos una vacuna, lo que convierte a las <icon s></icon>s susceptibles en <icon r></icon>s inmunes. La inmunidad de grupo, de la forma *correcta*:
 
 <div class="sim">
 		<iframe src="sim?stage=int-4b&format=calc" width="285" height="230"></iframe>
 </div>
 
-(Note: this calculator pretends the vaccines are 100% effective. Just remember that in reality, you'd have to compensate by vaccinating *more* than "herd immunity", to *actually* get herd immunity)
+(Nota: esta calculadora supone que las vacunas son 100% efectivas. Recuerda que en realidad, tendrías que compensarlo vacunando a *más* personas que las que dan la «inmunidad de grupo». para obtener *realmente* la inmunidad de grupo).
 
-Okay, enough talk. Here's a simulation of:
+Bueno, dejemos de hablar. Aquí está la simulación de:
 
-1. A few-month lockdown, until we can...
-2. Switch to "Test, Trace, Isolate" until we can...
-3. Vaccinate enough people, which means...
-4. We win.
+1. Un confinamiento de varios meses, hasta que podamos...
+2. Pasar a «Probar, rastrear y aislar», hasta que podamos...
+3. Vacunar a suficientes personas, lo que implica que...
+4. Ganamos.
 
 <div class="sim">
 		<iframe src="sim?stage=int-5&format=lines" width="800" height="540"></iframe>
 </div>
 
-So that's it! That's how we make an emergency landing on this plane.
+¡Ahí está! Así es como hacemos el aterrizaje de emergencia en este avión.
 
-That's how we beat COVID-19.
+Así es como ganamos a la COVID-19.
 
 ...
 
-But what if things *still* go wrong? Things have gone horribly wrong already. That's fear, and that's good! Fear gives us energy to create *backup plans*.
+Pero, ¿qué ocurre si *aún así* las cosas van mal? Ya han ido mal. Eso es miedo, ¡y el miedo es bueno! El miedo nos da energía para crear *planes de contingencia*.
 
-The pessimist invents the parachute.
+Los pesismistas inventan los paracaídas.
 
 ###Scenario 4+: Masks For All, Summer, Circuit Breakers
 
