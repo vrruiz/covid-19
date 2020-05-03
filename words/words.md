@@ -312,11 +312,11 @@ Ese fue otro descubrimiento del informe del Imperial College del 16 de marzo, qu
 
 ![](pics/mitigation_vs_suppression.png)
 
-Eso es, no solo "aplanar" la curva, es *aplastar* la curva. Por ejemplo, con un...
+Eso es, no solo "aplanar" la curva, es *despachurrar* la curva. Por ejemplo, con un...
 
-###Scenario 2: Confinamiento de varios meses
+###Escenario 2: Confinamiento de varios meses
 
-Let's see what happens if we *crush* the curve with a 5-month lockdown, reduce <icon i></icon> to nearly nothing, then finally – *finally* – return to normal life:
+Ahora veamos lo que ocurre si *despachurramos* la curva con un confinamiento de 5 meses, reducimos <icon i></icon> a prácticamente nada, y finalmente – *finalmente* – regresamos a la vida normal:
 
 <div class="sim">
 		<iframe src="sim?stage=int-3&format=lines" width="800" height="540"></iframe>
@@ -324,25 +324,25 @@ Let's see what happens if we *crush* the curve with a 5-month lockdown, reduce <
 
 Oh.
 
-This is the "second wave" everyone's talking about. As soon as we remove the lockdown, we get R > 1 again. So, a single leftover <icon i></icon> (or imported <icon i></icon>) can cause a spike in cases that's almost as bad as if we'd done Scenario 0: Absolutely Nothing.
+Esta es la "segunda ola" de la que todo el mundo habla. Tan pronto como eliminemos el confinamiento, tenemos otra vez R > 1. Una simple <icon i></icon> olvidada (o <icon i></icon> importada) puede generar un brote de casos que sea tan mala como si hubiéramos hecho el escenario 0: Nada En Absoluto.
 
-**A lockdown isn't a cure, it's just a restart.**
+**Un confinamiento no es una cura, es un reinicio.**
 
-So, what, do we just lockdown again & again?
+Así que, ¿vamos nos confinamos una y otra vez?
 
-###Scenario 3: Intermittent Lockdown
+###Escenario 3: Confinamiento intermitente
 
-This solution was first suggested by the March 16 Imperial College report, and later again by a Harvard paper.[^lockdown_harvard]
+Esta solución se sugirió en el informe del Imperial College del 16 de marzo, y posteriormente por un artículo de Harvard.[^lockdown_harvard]
 
-[^lockdown_harvard]: “Absent other interventions, a key metric for the success of social distancing is whether critical care capacities are exceeded. To avoid this, prolonged or intermittent social distancing may be necessary into 2022.” [Kissler and Tedijanto et al](https://science.sciencemag.org/content/early/2020/04/14/science.abb5793)
+[^lockdown_harvard]: «Absent other interventions, a key metric for the success of social distancing is whether critical care capacities are exceeded. To avoid this, prolonged or intermittent social distancing may be necessary into 2022». [Kissler y Tedijanto et al](https://science.sciencemag.org/content/early/2020/04/14/science.abb5793)
 
-**Here's a simulation:** (After playing the "recorded scenario", you can try simulating your *own* lockdown schedule, by changing the sliders *while* the simulation is running! Remember you can pause & continue the sim, and change the simulation speed)
+**Aquí tienes una simulación:** (Después de jugar con el "escenario grabado" ¡puedes intentar crear tu *propio* calendario de confinamiento, usando las barras de ajustes *mientras* se ejecuta la simulación! Recuerda que puedes detener y continuar la simulación, y cambiar su velocidad).
 
 <div class="sim">
 		<iframe src="sim?stage=int-4&format=lines" width="800" height="540"></iframe>
 </div>
 
-This *would* keep cases below ICU capacity! And it's *much* better than an 18-month lockdown until a vaccine is available. We just need to... shut down for a few months, open up for a few months, and repeat until a vaccine is available. (And if there's no vaccine, repeat until herd immunity is reached... in 2022.)
+¡Esto *mantendría* los casos por debajo de la capacidad de las UCIs! Y es *mucho* mejor que el confinamiento total hasta que esté disponible la vacuna. Solo tenemos que... cerrarlo todo durante unos meses, abrir durante unos meses, y repetirlo hasta que la vacuna esté disponible. (Y si no hay vacuna, repetir hasta que se alcance la inmunidad de grupo... en 2022).
 
 Look, it's nice to draw a line saying "ICU capacity", but there's lots of important things we *can't* simulate here. Like:
 
