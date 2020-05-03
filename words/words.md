@@ -538,7 +538,7 @@ El verano por si solo no hará que R < 1, pero si tenemos recursos limitados, po
 
 Y si con todo eso *aún* no es suficiente para que R < 1... podemos hacer otro confinamiento.
 
-¡Pero no tendríamos que estar 2 meses cerrados / 1 abierto una y otra vez! Dado que R se reduce, solo tendríamos que tener uno o dos confinamientos de «cortocircuito» antes de que la vacuna esté disponible. (Recientemente, Singapore tuvo que hacerlo, «a pesar» de que tuvo controlada la COVID-19 durante 4 meses. No es un fracaso: esto *es* lo que el éxito requiere).
+¡Pero no tendríamos que estar 2 meses cerrados / 1 abierto una y otra vez! Dado que R se reduce, solo tendríamos que tener uno o dos confinamientos de «cortocircuito» antes de que la vacuna esté disponible. (Recientemente, Singapur tuvo que hacerlo, «a pesar» de que tuvo controlada la COVID-19 durante 4 meses. No es un fracaso: esto *es* lo que el éxito requiere).
 
 Aquí hay una simulación de un escenario de «casos vagos»:
 
@@ -573,7 +573,7 @@ Así que ahora, planifiquemos algunos de los *peores* escenarios. Aterrizaje en 
 <div class="section chapter">
     <div>
 		<img src="banners/curve.png" height=480 style="position: absolute;"/>
-        <div>The Next Few Years</div>
+        <div>Los próximos años</div>
     </div>
 </div>
 
@@ -615,11 +615,11 @@ Ahora, vamos a simular un brote de la COVID-19, durante 10 años, sin intervenci
 		<iframe src="sim?stage=yrs-2&format=lines&height=600" width="800" height="600"></iframe>
 </div>
 
-In previous simulations, we only had *one* ICU-overwhelming spike. Now, we have several, *and* <icon i></icon> cases come to a rest *permanently at* ICU capacity. (Which, remember, we *tripled* for these simulations)
+En simulaciones anteriores, solo teníamos *un* pico que sobrepasaba las UCIs. Ahora, tenemos muchos, *y* los casos <icon i></icon> se equilibran *permanentemente en* la capacidad de UCIs. (Que, recuerda, hemos *triplicado* para estas simulaciones).
 
-R = 1, it's **endemic.**
+R = 1, es **endémico.**
 
-Thankfully, because summer reduces R, it'll make the situation better:
+Por fortuna, dado que el verano reduce R, mejorará la situación:
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-3&format=lines&height=640" width="800" height="640"></iframe>
@@ -627,83 +627,83 @@ Thankfully, because summer reduces R, it'll make the situation better:
 
 Oh.
 
-Counterintuitively, summer makes the spikes worse *and* regular! This is because summer reduces new <icon i></icon>s, but that in turn reduces new immune <icon r></icon>s. Which means immunity plummets in the summer, *creating* large regular spikes in the winter.
+De forma contraintuitiva, ¡el verano hace que los picos empeoren *y* sean más frecuentes! Esto es debido a que el verano reduce las nuevas <icon i></icon>s, pero por otra parte reduce las nuevas <icon r></icon>s inmunes. Lo que significa que la inmunidad se desplome en el verano, *creando* grandes picos frecuentes en el invierno.
 
-Thankfully, the solution to this is pretty straightforward – just vaccinate people every fall/winter, like we do with flu shots:
+Por fortuna, la solución a este problema es bastante sencilla – solo hay que vacunar a la población en cada otoño/invierno, como hacemos con las vacunas de la gripe:
 
-**(After playing the recording, try simulating your own vaccination campaigns! Remember you can pause/continue the sim at any time)**
+**(Después de ver la grabación, intenta simular tus propias campañas de vacunación! Recuerda que en cualquier momento puedes detener/continuar la simulación).**
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-4&format=lines" width="800" height="540"></iframe>
 </div>
 
-But here's the scarier question:
+Pero aquí hay una pregunta más aterradora:
 
-What if there's no vaccine for *years*? Or *ever?*
+¿Y qué pasa si durante *años* no hay ninguna vacuna? ¿O *nunca*?
 
-**To be clear: this is unlikely.** Most epidemiologists expect a vaccine in 1 to 2 years. Sure, there's never been a vaccine for any of the other coronaviruses before, but that's because SARS was eradicated quickly, and "the" common cold wasn't worth the investment. 
+**Seamos claros: esto es muy poco probable.** La mayoría de epidemiólogos piensan que habrá una vacuna para 2021 o 2022. Por supuesto, nunca ha habido una vacuna para ninguno de los otros coronavirus, pero eso fue porque el SARS se erradicó rápidamente, y para «el» resfriado común no ha valido la pena el esfuerzo. 
 
-Still, infectious disease researchers have expressed worries: What if we can't make enough?[^vax_enough] What if we rush it, and it's not safe?[^vax_safe]
+Aún así, los investigadores de enfermedades contagiosas han expresado sus temores: ¿Y si no podemos hacer suficientes?[^vax_enough] ¿Qué pasa si nos damos prisa y al final no es segura?[^vax_safe]
 
-[^vax_enough]: “If a coronavirus vaccine arrives, can the world make enough?” [by Roxanne Khamsi, on Nature](https://www.nature.com/articles/d41586-020-01063-8)
+[^vax_enough]: «If a coronavirus vaccine arrives, can the world make enough?» [by Roxanne Khamsi, on Nature](https://www.nature.com/articles/d41586-020-01063-8)
 
-[^vax_safe]: “Don’t rush to deploy COVID-19 vaccines and drugs without sufficient safety guarantees” [by Shibo Jiang, on Nature](https://www.nature.com/articles/d41586-020-00751-9)
+[^vax_safe]: «Don’t rush to deploy COVID-19 vaccines and drugs without sufficient safety guarantees» [by Shibo Jiang, on Nature](https://www.nature.com/articles/d41586-020-00751-9)
 
-Even in the nightmare "no-vaccine" scenario, we still have 3 ways out. From most to least terrible:
+Incluso en el escenario «sin vacuna», aún tenemos 3 maneras de escapar. De la más a la menos espantosa:
 
-1) Do intermittent or loose R < 1 interventions, to reach "natural herd immunity". (Warning: this will result in many deaths & damaged lungs. *And* won't work if immunity doesn't last.)
+1) Hacer intervenciones R < 1 intermitentes o suaves, para llegar a la «inmunidad de grupo». (Aviso: esto implica muchas muertes y pulmones dañados. *Y* no funciona si la inmunidad no es duradera).
 
-2) Do the R < 1 interventions forever. Contact tracing & wearing masks just becomes a new norm in the post-COVID-19 world, like how STI tests & wearing condoms became a new norm in the post-HIV world.
+2) Hacer que las intervenciones R < 1 sean persistentes. El rastreo de contactos y las mascarillas se convierten en la nueva normalidad en el mundo post-COVID-19, igual que las pruebas ITC y llevar condón se convirtieron en la norma en el mundo post-VIH.
 
-3) Do the R < 1 interventions until we develop treatments that make COVID-19 way, way less likely to need critical care. (Which we should be doing *anyway!*) Reducing ICU use by 10x is the same as increasing our ICU capacity by 10x:
+3) Hacer intervenciones R < 1 hasta que se desarrollen tratamientos para la COVID-19 con los que sea mucho, mucho, mucho menos probable la necesidad de cuidados intensivos. (Lo que deberíamos estar haciendo *¡en cualquier caso!*) La reducción del uso de UCIs por 10x es lo mismo que incrementar nuestra capacidad de UCIs por 10x:
 
-**Here's a simulation of *no* lasting immunity, *no* vaccine, and not even any interventions – just slowly increasing capacity to survive the long-term spikes:**
+**Aquí hay una simulación en la que *no* hay una inmunidad duradera, *no hay* vacuna, e incluso no hay ninguna intervención – solo un incremento lento de la capacidad para sobrevivit a los picos de largo plazo:**
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-5&format=lines" width="800" height="540"></iframe>
 </div>
 
-Even under the *worst* worst-case scenario... life perseveres.
+Incluso en el *peor* de los peores escenarios... la vida prevalece.
 
 . . .
 
-Maybe you'd like to challenge our assumptions, and try different R<sub>0</sub>'s or numbers. Or try simulating your *own* combination of intervention plans!
+Quizás quieras poner en cuestión nuestras suposiciones, e intentar unos R<sub>0</sub>s diferentes u otros números. ¡O intentar simular tu *propia* combinación de planes de intervención!
 
-**Here's an (optional) Sandbox Mode, with *everything* available. (scroll to see all controls) Simulate & play around to your heart's content:**
+**Aquí hay un «modo de juego» (opcional), con *todo* disponible. (deslizar para ver todos los controles) ¡Simula y juega tanto como quieras!:**
 
 <div class="sim">
 		<iframe src="sim?stage=SB&format=sb" width="800" height="540"></iframe>
 </div>
 
-This basic "epidemic flight simulator" has taught us so much. It's let us answer questions about the past few months, next few months, and next few years.
+Este «simular de vuelo de epidemias» básico nos ha enseñador mucho. Nos ha permitido encontrar respuestas a dudas que teníamos sobre los pasados meses, los próximos meses, y los próximos años.
 
-So finally, let's return to...
+Así que, finalmente, regresemos a...
 
 <div class="section chapter">
     <div>
 		<img src="banners/curve.png" height=480 style="position: absolute;"/>
-        <div>The Now</div>
+        <div>El ahora</div>
     </div>
 </div>
 
-Plane's sunk. We've scrambled onto the life rafts. It's time to find dry land.[^dry_land]
+El avión se ha hundido. Hemos corrido a los botes salvavidas. Ahora es momento de encontrar tierra firme.[^dry_land]
 
-[^dry_land]: Dry land metaphor [from Marc Lipsitch & Yonatan Grad, on STAT News](https://www.statnews.com/2020/04/01/navigating-covid-19-pandemic/)
+[^dry_land]: La metáfora de la tierra firme es [de Marc Lipsitch y Yonatan Grad, en STAT News](https://www.statnews.com/2020/04/01/navigating-covid-19-pandemic/)
 
-Teams of epidemiologists and policymakers ([left](https://www.americanprogress.org/issues/healthcare/news/2020/04/03/482613/national-state-plan-end-coronavirus-crisis/), [right](https://www.aei.org/research-products/report/national-coronavirus-response-a-road-map-to-reopening/ ), and [multi-partisan](https://ethics.harvard.edu/covid-roadmap)) have come to a consensus on how to beat COVID-19, while protecting our lives *and* liberties.
+Equipos de epidemiólogos y políticos de la ([izquierda](https://www.americanprogress.org/issues/healthcare/news/2020/04/03/482613/national-state-plan-end-coronavirus-crisis/), [derecha](https://www.aei.org/research-products/report/national-coronavirus-response-a-road-map-to-reopening/ ), y [multi-partidistas](https://ethics.harvard.edu/covid-roadmap)) han llegado al consenso de que para ganar a la COVID-19, debemos proteger nuestras vidas *y* libertades.
 
-Here's the rough idea, with some (less-consensus) backup plans:
+Esta es la idea general, con algunos planes de contingencia (sin consenso):
 
 ![](pics/plan.png)
 
-So what does this mean for YOU, right now?
+¿Qué es lo que esto implica para TI, ahora mismo?
 
-**For everyone:** Respect the lockdown so we can get out of Phase I asap. Keep washing those hands. Make your own masks. Download a *privacy-protecting* contact tracing app when those are available next month. Stay healthy, physically & mentally! And write your local policymaker to get off their butt and...
+**Para todos:** Respeta el confinamiento para que podamos pasar de la Fase 1 rápidamente. Mantén limpias esas manos. Fabrica tus propias mascarillas. Descarga una aplicación de rastreo de contactos *que proteja la privacidad* cuando estén disponibles el próximo mes. Mantente sano, ¡física y mentalmente! Y escribe a tu representante público para que mueva el culo y...
 
-**For policymakers:** Make laws to support folks who have to self-isolate/quarantine. Hire more manual contact tracers, *supported* by privacy-protecting contact tracing apps. Direct more funds into the stuff we should be building, like...
+**Para políticos:** Promulga leyes que apoyen a quienes tienen que auto-aislarse/hacer cuarentena. Contrata muchos más rastreadores de contactos, *apoyados* por aplicaciones aplicaciones de rastreo de contactos que protejan la privacidad. Inyecta más fondos en las cosas que deberíamos estar fabricando, como...
 
-**For builders:** Build tests. Build ventilators. Build personal protective equipment for hospitals. Build tests. Build masks. Build apps. Build antivirals, prophylactics, and other treatments that aren't vaccines. Build vaccines. Build tests. Build tests. Build tests. Build hope. 
+**Para fabricantes:** Haz pruebas. Fabrica ventiladores. Fabrica equipo de protección individual para los hospitales. Haz aplicaciones. Haz antivirales, profilácticos, y otros tratamientos que no son vacunas. Fabrica vacuna. Haz pruebas. Haz pruebas. Haz pruebas. Crea esperanza. 
 
-Don't downplay fear to build up hope. Our fear should *team up* with our hope, like the inventors of airplanes & parachutes. Preparing for horrible futures is how we *create* a hopeful future.
+No subestimemos el miedo para crear esperanza. Nuestro miedo debería *hacer equipo* con nuestra esperanza, como los inventores de los aviones y los paracaídas. *Creamos* un futuro esperanzado preparándonos para futuros horribles.
 
-The only thing to fear is the idea that the only thing to fear is fear itself.
+La única cosa temer es la idea de que la única cosa a temer es al miedo mismo.
