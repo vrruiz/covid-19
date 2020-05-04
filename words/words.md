@@ -53,7 +53,7 @@ Los pilotos usan simuladores de vuelo para aprender cómo evitar que los aviones
 
 Así que, venga, ¡hagamos un «simulador de vuelo de epidemias» muy, *muy* simple! En esta simulación, las personas <icon i></icon> Infecciosas pueden convertir a las personas <icon s></icon> Susceptibles en aún más personas <icon i></icon> Infecciosas:
 
-![](pics/spread.png)
+![](pics/es_ES/spread.png)
 
 Se estima que, *al comienzo* de un brote de la COVID-19, el virus salta de una <icon i></icon> a una <icon s></icon> cada 4 días, *en promedio*.[^serial_interval] (Recuerde, hay mucha variabilidad).
 
@@ -75,11 +75,11 @@ Si simulamos que se «doble cada cada 4 días» *y nada más*, en una población
 
 Esta es la **curva de crecimiento exponencial.** Comienza plana y en determinado momento explota. De «ah, es cómo la gripe» a «ah claro, la gripe no crea *fosas comunes en ciudades desarrolladas*».
 
-![](pics/exponential.png)
+![](pics/es_ES/exponential.png)
 
 Pero esta simulación no es correcta. El crecimiento exponencial, afortunadamente, no puede continuar indefinidamente. Una cosa que detiene el contagio es cuando *ya hay* personas que tienen el virus:
 
-![](pics/susceptibles.png)
+![](pics/es_ES/susceptibles.png)
 
 Cuantas más <icon i></icon>s haya, más rápido las <icon s></icon>s se vuelven <icon i></icon>s, **pero cuantas menos <icon s></icon>s haya, más *lento* la <icon s></icon>s se convertirán en <icon i></icon>s.**
 
@@ -107,7 +107,7 @@ Esto es lo contrario de un crecimiento exponencial, la **curva de decaimiento ex
 
 Y ahora, ¿qué pasa si simulas un crecimiento logístico con forma de S *con* recuperación?
 
-![](pics/graphs_q.png)
+![](pics/es_ES/graphs_q.png)
 
 Vamos a comprobarlo.
 
@@ -127,13 +127,13 @@ la *segunda* idea más importante en la Introducción a la Epidemiología:
 
 [^sir]: Para más detalles técnicos del modelo SIR, consultar [Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-sir.html#) y [Wikipedia](https://es.wikipedia.org/wiki/Modelo_SIR)
 
-![](pics/sir.png)
+![](pics/es_ES/sir.png)
 
 **NOTA: Las simulaciones usadas en la toma de decisiones públicas son mucho, *mucho* más sofisticadas que ésta!** Pero el modelo SIR puede explicar los mismos fenómenos generales, aún sin todos sus matices.
 
 Bueno, vamos a añadir otro matiz más: antes de que <icon s></icon> se convierta en <icon i></icon>, antes se convierten en personas <icon e></icon> Expuestas. Esto pasa cuando tienen el virus pero aún no pueden transmitirlo –infec*tadas* pero todavía no son infec*ciosas*.
 
-![](pics/seir.png)
+![](pics/es_ES/seir.png)
 
 (Esta variante es el denominado **modelo SEIR**[^seir], donde «E» son las personas <icon e></icon> «Expuestas». Ten en cuenta que este *no es* el significado habitual de «expuesto», cuando podrías tener o no el virus. En esta definición técnica, «Expuesto» significa que lo tienes con seguridad. La terminología científica es mala).
 
@@ -154,11 +154,11 @@ La <b style='color:#888'>curva gris</b> son casos *totales* (actuales + recupera
 
 ¿Por qué? Por la *primera* y más importante idea de la Introducción a la Epidemiología:
 
-![](pics/r.png)
+![](pics/es_ES/r.png)
 
 Abreviación de «número reproductivo». Es el número de personas *promedio* a las que una <icon i></icon> contagia *antes* de recuperarse (o fallecer).
 
-![](pics/r2.png)
+![](pics/es_ES/r2.png)
 
 **R** cambia durante el transcurso de una epidemia, según se obtiene más inmunidad y se realizan más intervenciones.
 
@@ -206,7 +206,7 @@ Esto pasa porque cuando hay más no-<icon s></icon>s que el umbral de inmunidad 
 
 **Si sólo hubiera una lección que llevarse de esta guía, es ésta** –es un diagrama extremadamente complejo así que, por favor, tómate tu tiempo para comprenderlo en su totalidad:
 
-![](pics/r3.png)
+![](pics/es_ES/r3.png)
 
 **Esto significa: ¡NO necesitamos detener todos los contagios, o casi todos los contagios, para detener a la COVID-19!**
 
@@ -224,7 +224,7 @@ Es una paradoja. La COVID-19 es extremadamente contagiosa, pero para contenerla,
     
     Por tanto, ¡debes evitar más de **1 - 1/R<sub>0</sub>** de los contagios para que R < 1 y así contener el virus!
 
-![](pics/r4.png)
+![](pics/es_ES/r4.png)
 
 (Si crees que R<sub>0</sub> o el resto de números de nuestras simulaciones son muy pequeños/grandes, ¡es estupendo que cuestiones nuestras suposiciones! Tenemos una «zona de juegos» al final de esta guía, donde podrás indicar tus *propios* números y simular lo que ocurre con ellos).
 
@@ -310,7 +310,7 @@ Tres notas:
 
 Ese fue otro descubrimiento del informe del Imperial College del 16 de marzo, que convenció al Reino Unido de abandonar su plan original. Cualquier intento de **mitigación** (reducir R, pero R > 1) fracasará. La única forma de tener éxito es la **eliminación** (reducir R de modo que R < 1).
 
-![](pics/mitigation_vs_suppression.png)
+![](pics/es_ES/mitigation_vs_suppression.png)
 
 Eso no es «aplana» la curva, es *despachurra* la curva. Por ejemplo, con un...
 
@@ -372,11 +372,11 @@ Para comprender cómo Taiwán y Corea del Sur han contenido la COVID-19, necesit
     
     **5 días en promedio para sentir síntomas:** «The median incubation period was estimated to be 5.1 days (95% CI, 4.5 to 5.8 days)» [Lauer SA, Grantz KH, Bi Q, et al](https://annals.org/AIM/FULLARTICLE/2762808/INCUBATION-PERIOD-CORONAVIRUS-DISEASE-2019-COVID-19-FROM-PUBLICLY-REPORTED)
 
-![](pics/timeline1.png)
+![](pics/es_ES/timeline1.png)
 
 Si los casos solamente se auto-aíslan cuando se ponen enfermos (esto es, cuando sienten los síntomas), el virus se puede contagiar:
 
-![](pics/timeline2.png)
+![](pics/es_ES/timeline2.png)
 
 Y, de hecho, el 44% de todos los contagios son así: ¡*pre*-sintomáticos! [^pre_symp]
 
@@ -384,7 +384,7 @@ Y, de hecho, el 44% de todos los contagios son así: ¡*pre*-sintomáticos! [^pr
 
 Pero, si encontramos *y ponemos en cuarentena* a los casos sintomáticos y a sus contactos cercanos... ¡detenemos el contagio, al adelantarnos!
 
-![](pics/timeline3.png)
+![](pics/es_ES/timeline3.png)
 
 Esto se denomina **rastreo de contactos**. Es una vieja idea, que se usó a una escala sin precedentes para contener el ébola[^ebola], ¡y ahora es el núcleo central de la estrategia de contención de la COVID-10 de Taiwán y Corea del Sur!
 
@@ -402,7 +402,7 @@ Un momento, ¿aplicaciones que registran con quién has estado en contacto?... �
 
 Aquí se ve cómo funciona:
 
-![](pics/dp3t.png)
+![](pics/es_ES/dp3t.png)
 
 (y [aquí el cómic completo](https://ncase.me/contact-tracing/))
 
@@ -694,7 +694,7 @@ Equipos de epidemiólogos y políticos de la ([izquierda](https://www.americanpr
 
 Esta es la idea general, con algunos planes de contingencia (sin consenso):
 
-![](pics/plan.png)
+![](pics/es_ES/plan.png)
 
 ¿Qué es lo que esto implica para TÍ, ahora mismo?
 
