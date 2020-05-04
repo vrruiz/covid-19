@@ -5,7 +5,7 @@
         	¿Qué pasará ahora?
        	</div>
 		<div style="font-weight: 500;top: 140px;left: 10px;font-size: 29px;">
-			Los futuros de la COVID-19, explicados con simulaciones
+			Los futuros de la COVID-19 explicados con simulaciones
 		</div>
 		<div style="font-weight: 100;top: 189px;left: 10px;font-size: 19px;line-height: 21px;">
 			<b>
