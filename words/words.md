@@ -5,7 +5,7 @@
         	¿Qué pasará ahora?
        	</div>
 		<div style="font-weight: 500;top: 140px;left: 10px;font-size: 29px;">
-			Los futuros de la COVID-19 explicados con simulaciones
+			Los futuros de la COVID-19, explicados con simulaciones
 		</div>
 		<div style="font-weight: 100;top: 189px;left: 10px;font-size: 19px;line-height: 21px;">
 			<b>
@@ -22,11 +22,11 @@
 	</div>
 </div>
 
-«Sólo tenemos que temer al propio miedo» fue un consejo estúpido.
+Lo de «sólo tenemos que temer al propio miedo» fue un consejo estúpido.
 
-Por supuesto, no hay que hacer acopio del papel higiénico, pero si los responsables públicos tienen miedo al miedo, tenderán a minimizar los peligros reales para evitar la «histeria colectiva». El problema no es el miedo, es cómo *canalizamos* nuestro miedo. El miedo nos da fuerzas para enfrentarnos a los peligros actuales y prepararnos para los futuros.
+Por supuesto, no hay que hacer acopio de papel higiénico, pero si los responsables públicos tienen miedo al miedo tenderán a minimizar los peligros reales para evitar la «histeria colectiva». El problema no es el miedo, es cómo *canalizamos* nuestro miedo. El miedo nos da fuerzas para enfrentarnos a los peligros actuales y prepararnos para los futuros.
 
-Sinceramente, nosotros (Marcel, epidemiólogo + Nicky, arte/código) estamos preocupados. ¡Y pensamos que tú también lo estarás! Por eso hemos canalizado nuestro miedo haciendo estas **simulaciones interactivas**, para que *tu* puedes canalizar tu miedo en comprensión:
+Sinceramente, nosotros (Marcel, epidemiólogo + Nicky, arte/código) estamos preocupados. ¡Y pensamos que tú también lo estarás! Por eso hemos canalizado nuestro miedo haciendo estas **simulaciones interactivas**, para que *tú* canalices tu miedo en comprensión:
 
 * **Los últimos meses** (introducción a la epidemiología, modelo SEIR, R y R<sub>0</sub>).
 * **Los próximos meses** (confinamientos, rastreo de contactos, mascarillas).
@@ -35,7 +35,7 @@ Sinceramente, nosotros (Marcel, epidemiólogo + Nicky, arte/código) estamos pre
 El objetivo de esta guía (publicada el 1 de mayo de 2020, haz clic en esta nota al pie de página→[^timestamp]) es darte esperanza *y* miedo. Para ganar a la COVID-19 **de una forma que también proteja nuestra salud mental y financiera**, necesitamos optimismo para crear planes, y pesimismo para crear planes de contingencia. Como Gladys Bronwyn Stern dijo una vez: *«El optimismo inventa el avión y el pesimismo, el paracaídas».*
 
 [^timestamp]: Estas notas al pie de página mostrarán fuentes, enlaces y comentarios extra. ¡Como este comentario!
-
+    
     **Esta guía se publicó el 1 de mayo de 2020.** Muchos de los detalles caducarán eventualmente, pero estamos seguros de que la guía cubre el 95% de los futuros posibles, y que la introducción a la epidemiología será un recurso útil que perdurará.
 
 Abróchate el cinturón: vamos a sufrir algunas turbulencias.
@@ -64,9 +64,9 @@ Si simulamos que se «doble cada cada 4 días» *y nada más*, en una población
 **¡Haga clic al botón «Iniciar» para comenzar la simulación! Podrás reiniciarla luego con diferentes ajustes:** (consideración técnica: [^caveats])
 
 [^caveats]: **Recuerda: todas estas simulaciones están muy simplificadas por motivos didácticos.**
-
+    
     Una simplificación: cuando le dices a la simulación «infecta a 1 persona cada X días», en realidad se está incrementando el número de infectados en 1/X cada día. Lo mismo para los ajustes futuros en estas simulaciones –«recuperados cada X días» en realidad reduce el número de infectados en 1/X por día.
-
+    
     En realidad, *no son* exactamente lo mismo, pero se aproximan lo suficiente y para propósitos didácticos es menos opaco que ajustar las tasas de transmisión y recuperación directamente.
 
 <div class="sim">
@@ -213,15 +213,15 @@ Esto pasa porque cuando hay más no-<icon s></icon>s que el umbral de inmunidad 
 Es una paradoja. La COVID-19 es extremadamente contagiosa, pero para contenerla, «sólo» necesitamos evitar al menos el 60% de las infecciones. ¿¡El 60%!? Si fuera una nota de la escuela, sería un 6. Pero si R<sub>0</sub> = 2.5, disminuir eso un 61% nos da R = 0.975, que es R < 1, ¡el virus está contenido! (Fórmula exacta:[^exact_formula]).
 
 [^exact_formula]: Recuerda R = R<sub>0</sub> * la tasa de contagios aún permitidos. Recuerda también que la tasa de contagios permitidos = 1 - tasa de contagios *evitados*.
-
-    Por tanto, para llegar a R < 1, tienes que conseguir que R<sub>0</sub> * ContagiosPermitidos < 1.
-
+    
+    Por tanto, para llegar a R < 1, tienes que conseguir que R<sub>0</sub> * ContagiosPermitidos < 1. 
+    
     Por tanto, ContagiosPermitidos < 1/R<sub>0</sub>
-
+    
     Por tanto, 1 - ContagiosEvitados < 1/R<sub>0</sub>
-
+    
     Por tanto, ContagiosEvitados > 1 - 1/R<sub>0</sub>
-
+    
     Por tanto, ¡debes evitar más de **1 - 1/R<sub>0</sub>** de los contagios para que R < 1 y así contener el virus!
 
 ![](pics/r4.png)
@@ -251,7 +251,7 @@ Alrededor de 1 de cada 20 personas contagiadas de la COVID-19 necesitan ir a una
 
 [^icu_covid]: [«Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group»](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/). Entre el 4.9% y el 11.5% de *todos* los casos de COVID-19 necesitan UCI. Si de forma optimista seleccionamos el rango inferior, eso es el 5% o 1 de cada 20. Observa que este total es específico para la estructura de edades de EEUU y será más alto en países con poblaciones más viejas y menor en países con poblaciones más jóvenes.
 
-[^icu_us]: «Number of ICU beds = 96,596». De la [Society of Critical Care Medicine](https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19) EEUU tiene una población de 328,200,000 en 2019. 96,596 de 328,200,000 = aproximadamente 1 de 3400.
+[^icu_us]: «Number of ICU beds = 96,596». De la [Society of Critical Care Medicine](https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19) EEUU tiene una población de 328,200,000 en 2019. 96,596 de 328,200,000 = aproximadamente 1 de 3400. 
 
 Incluso si *multiplicáramos* esa capacidad al 2%, aquí vemos lo que hubiese pasado *si no hubiéramos hecho nada en absoluto:*
 
@@ -261,7 +261,7 @@ Incluso si *multiplicáramos* esa capacidad al 2%, aquí vemos lo que hubiese pa
 
 No tiene buena pinta.
 
-Esto es lo que [el informe del 16 de marzo del Imperial College](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-9-impact-of-npis-on-covid-19/) concluyó: sin hacer nada, nos quedamos sin UCIs libres, y se contagiaría más del 80% de la población.
+Esto es lo que [el informe del 16 de marzo del Imperial College](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-9-impact-of-npis-on-covid-19/) concluyó: sin hacer nada, nos quedamos sin UCIs libres, y se contagiaría más del 80% de la población. 
 (recuerda: el total de casos *excede* la inmunidad de grupo)
 
 Incluso si sólo el 0.5% de las personas contagiadas mueren –una suposición optimista cuando no hay más UCIs– en un país poblado como EEUU, con 300 millones de personas, el 0.5% del 80% de 300 millones = 1.2 millones de fallecidos... *SI no se hace nada.*
@@ -273,7 +273,7 @@ Incluso si sólo el 0.5% de las personas contagiadas mueren –una suposición o
 El plan de «Aplana la curva» ha sido promocionado por todas las organizaciones de sanidad pública, mientras que el plan original para la «inmunidad de grupo» del Reino Unido ha sido abucheado. Eran *el mismo plan.* Pero el Reino Unido lo comunicó mal.[^yong]
 
 [^yong]: «He says that the actual goal is the same as that of other countries: flatten the curve by staggering the onset of infections. As a consequence, the nation may achieve herd immunity; it’s a side effect, not an aim. [...] The government’s actual coronavirus action plan, available online, doesn’t mention herd immunity at all».
-
+    
     De un [artículo de The Atlantic por Ed Yong](https://www.theatlantic.com/health/archive/2020/03/coronavirus-pandemic-herd-immunity-uk-boris-johnson/608065/)
 
 Sin embargo, ambos planes adolecían de un error fatal, literalmente.
@@ -308,7 +308,7 @@ Tres notas:
 
 3. Aún te puedes quedar sin UCIs. Durante muchos meses. (Y recuerda, *ya* hemos triplicado las UCIs para estas simulaciones).
 
-Ese fue otro descubrimiento del informe del Imperial College del 16 de marzo, que convenció al Reino Unido de abandonar su plan original. Cualquier intento de **mitigación** (reducir R, pero R > 1) fracasará. La única forma de tener éxito es la **supresión** (reducir R de modo que R < 1).
+Ese fue otro descubrimiento del informe del Imperial College del 16 de marzo, que convenció al Reino Unido de abandonar su plan original. Cualquier intento de **mitigación** (reducir R, pero R > 1) fracasará. La única forma de tener éxito es la **eliminación** (reducir R de modo que R < 1).
 
 ![](pics/mitigation_vs_suppression.png)
 
@@ -367,9 +367,9 @@ Pero espera... ¿Taiwan y Corea del Sur no han contenido *ya* la COVID-19? ¿Dur
 Para comprender cómo Taiwán y Corea del Sur han contenido la COVID-19, necesitamos comprender la cronología de una infección típica de la COVID-19[^timeline]:
 
 [^timeline]: **3 días en promedio de contagiosidad:** «Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset» (traducción: Asumiendo que los síntomas comienzan a los 5 días, la contagiosidad comienza 2 días antes = La contagiosidad comienza a los 3 días) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)  
-
+    
     **4 días en promedio para contagiar a alguien más:** “The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)” [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article)
-
+    
     **5 días en promedio para sentir síntomas:** «The median incubation period was estimated to be 5.1 days (95% CI, 4.5 to 5.8 days)» [Lauer SA, Grantz KH, Bi Q, et al](https://annals.org/AIM/FULLARTICLE/2762808/INCUBATION-PERIOD-CORONAVIRUS-DISEASE-2019-COVID-19-FROM-PUBLICLY-REPORTED)
 
 ![](pics/timeline1.png)
@@ -419,15 +419,15 @@ Pero ¿qué pasa con las personas que no tienen teléfonos inteligentes? ¿O con
 (Diatraba sobre la confusión entre pre-sintomáticos y asintomáticos «reales». Los asintomáticos «reales» son muy pocos:[^rant])
 
 [^rant]: Hay muchas noticias  –y, sinceramente, muchos artículos científicos– que no distinguen entre «casos que no han mostrado síntomas cuando les hicimos la prueba» (pre-sintomáticos) y «casos que *nunca* mostraron síntomas» (asintomáticos reales). La única manera de hallar la diferencia es mediante un seguimiento pormenorizado de los casos.
-
+   
     Que es justo lo que hizo [este estudio](https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article). (Aviso: «La publicación temprana de artículos no está considerada como versión final».) En un centro de llamadas en Corea del Sur donde hubo un brote de la COVID-19, «solo cuatro personas (1.9%) se mantuvieron asintomáticos durante los 14 días de la cuarentena y ninguno de los contactos en sus hogares sufrieron infecciones secundarias».
-
+    
     Esto significa que los «asintomáticos reales» son pocos e infectarse con la enfermedad a través de un asintomático real ¡podría ser incluso más extraño!
 
 El aislamiento de los casos *sintomáticos* reduciría R en un 40% y poniendo en cuarentena a sus contactos *pre/a-sintomáticos* reduciría R hasta en un 50%[^oxford]:
 
 [^oxford]: Del mismo estudio de Oxford que primero recomendó el uso de aplicaciones para rastrear contactos en el caso de la COVID-19: [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) Véase la figura 2. Si se asume que R<sub>0</sub> = 2.0, encontraron que:    
-
+    
     * Los casos sintomáticos contribuyen R = 0.8 (40%).
     * Los casos pre-sintomáticos contribuyen R = 0.9 (45%).
     * Los casos asintomáticos contribuyen R = 0.1 (5%, aunque su modelo tiene mucha incertidumbre y podría ser aún menos).
@@ -513,10 +513,10 @@ Beneficio: Incluso si hay un 50-50 de probabilidad de que las mascarillas quirú
 [^mask_args]: **«Necesitamos los suministros para los hospitales».** *Sin discusión.* Pero ese argumento es para incrementar la producción no para el racionamiento. Mientras tanto, podemos fabricar mascarillas caseras.
 
    **«Son difíciles de llevar correctamente».** También es difícil lavarnos las manos siguiendo las instrucciones de la OMS –en serio, ¿¡«Paso 3) palma derecha contra el dorso de la mano izquierda»!?– pero aún así recomendamos el lavado de las manos, porque lo imperfecto es mejor que nada.
-
+   
    **«Harán que las personas sean más descuidadas con el lavado de manos y el distanciamiento social».** Claro, los cinturones de seguridad hacen que las personas ignoren las señales de stop y la limpieza con hilo dental hace que las personas comamos rocas. En serio, opinamos todo lo contrario: las mascarillas son un *recordatorio físico constante* de ser precavidos –¡y en el este de Asia, las mascarillas también son un símbolo de solidaridad!
-
-
+    
+    
 
 Las mascarillas *por si solas* no hacen que R < 1. Pero si el lavado de manos y «probar, rastrear, aislar» sólo nos lleva a R = 1.10, el que 1/3 de las personas lleven mascarillas hacen que R < 1, y ¡el virus está contenido!
 
@@ -560,7 +560,7 @@ Sin mencionar todas las *otras* intervenciones, para reducir aún más R:
 
 . . .
 
-Esperemos que estos planes le den esperanzas.
+Esperemos que estos planes le den esperanzas. 
 
 **Incluso en un escenario pesimista, *es* posible ganar a la COVID-19 y proteger nuestra salud mental y financiera.** ¡Usa el confinamiento como un «botón de reinicio», mantén R < 1 con el aislamiento de casos + rastreo de contactos con privacidad + *al menos* mascarillas para todos... y la vida puede volver a cierta normalidad!
 
@@ -594,7 +594,7 @@ Pero para la COVID-19 *en humanos*, a día 1 de mayo de 2020, la gran incógnita
 
 [^unclear]: «Once a person fights off a virus, viral particles tend to linger for some time. These cannot cause infections, but they can trigger a positive test». [de STAT News por Andrew Joseph](https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/)
 
-[^monkeys]: De [Bao et al.](https://www.biorxiv.org/content/10.1101/2020.03.13.990226v1.abstract) *Aviso: Este es un borrador de artículo y no ha sido certificado por la revisión por pares (aún).* También es importante hacer hincapié: solamente probaron la reinfección 28 días después.
+[^monkeys]: De [Bao et al.](https://www.biorxiv.org/content/10.1101/2020.03.13.990226v1.abstract) *Aviso: Este es un borrador de artículo y no ha sido certificado por la revisión por pares (aún).* También es importante hacer hincapié: solamente probaron la reinfección 28 días después. 
 
 Para estas simulaciones, digamos que es 1 año.
 **Esta simulación comienza con 100% <icon r></icon>**, disminuyendo exponencialmente en susceptibles, <icon s></icon>s sin inmunidad después de un año, de *promedio*, con variación:
@@ -641,7 +641,7 @@ Pero aquí hay una pregunta más aterradora:
 
 ¿Y qué pasa si durante *años* no hay ninguna vacuna? ¿O *nunca*?
 
-**Seamos claros: esto es muy poco probable.** La mayoría de epidemiólogos piensan que habrá una vacuna para 2021 o 2022. Por supuesto, nunca ha habido una vacuna para ninguno de los otros coronavirus, pero eso fue porque el SARS se erradicó rápidamente, y para «el» resfriado común dicho esfuerzo no ha valido la pena.
+**Seamos claros: esto es muy poco probable.** La mayoría de epidemiólogos piensan que habrá una vacuna para 2021 o 2022. Por supuesto, nunca ha habido una vacuna para ninguno de los otros coronavirus, pero eso fue porque el SARS se erradicó rápidamente, y para «el» resfriado común dicho esfuerzo no ha valido la pena. 
 
 Aún así, los investigadores de enfermedades contagiosas han expresado sus temores: ¿Y si no podemos hacer suficientes?[^vax_enough] ¿Qué pasa si nos damos prisa y al final no es segura?[^vax_safe]
 
@@ -702,7 +702,7 @@ Esta es la idea general, con algunos planes de contingencia (sin consenso):
 
 **Para políticos:** Promulga leyes que apoyen a quienes tienen que auto-aislarse/hacer cuarentena. Contrata muchos más rastreadores de contactos, *apoyados* por aplicaciones aplicaciones de rastreo de contactos que protejan la privacidad. Ofrece más fondos a cosas que deberíamos estar fabricando, como...
 
-**Para fabricantes:** Haz pruebas. Fabrica ventiladores. Fabrica equipo de protección individual para los hospitales. Haz aplicaciones. Haz antivirales, profilácticos y otros tratamientos que no son vacunas. Fabrica vacunas. Haz pruebas. Haz pruebas. Haz pruebas. Da esperanzas.
+**Para fabricantes:** Haz pruebas. Fabrica ventiladores. Fabrica equipo de protección individual para los hospitales. Haz aplicaciones. Haz antivirales, profilácticos y otros tratamientos que no son vacunas. Fabrica vacunas. Haz pruebas. Haz pruebas. Haz pruebas. Da esperanzas. 
 
 No subestimemos el miedo para dar esperanzas. Nuestro miedo debería *hacer equipo* con nuestra esperanza, como los inventores de los aviones y los paracaídas. *Creamos* un futuro esperanzado preparándonos para futuros horribles.
 
