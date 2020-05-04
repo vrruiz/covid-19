@@ -13,7 +13,7 @@ In just 10 doublings...
 
 #### Traduction (Español) 
 
-En apenas 10 duplicaciones...
+En solo 10 duplicaciones...
 
 ### masks.png
 #### Original (English) 
@@ -26,15 +26,15 @@ That's why masks aren't effective at preventing *you* from getting sick...
 
 But they are effective at preventing you from getting *others* sick!
 
-#### Traduction (français) 
+#### Traduction (Español) 
 
-Las gotas se vuelven más pequeñas a medida que se alejan, debido a la evaporación.
+Debido a la evaporación, las gotículas se vuelven más pequeñas a medida que se alejan.
 
-Las mascarillas bloquean mejor las gotas grandes, y menos las pequeñas.
+Las mascarillas bloquean mejor las gotículas grandes y menos las pequeñas.
 
-Por eso es que las mascarillas no sirven para evitar que *vos* te enfermes...
+Por eso las mascarillas no sirven para evitar que tú te enfermes...
 
-¡Pero sirven para que evites contagiar a *otras* personas!
+¡Pero son eficaces evitando que tú contagies a otras personas!
 
 ### mitigation_vs_suppression.png
 #### Original (English)
@@ -43,7 +43,7 @@ Mitigation
 
 Suppression
 
-#### Traduction (Español) 
+#### Traduction (Español)
 
 Mitigación
 
@@ -70,13 +70,13 @@ El objetivo: R < 1.
 Comenzando con un...
 
 CONFINAMIENTO
-Así arrancamos despacio y compramos tiempo para cambiar a...
+Así tenemos un nuevo comienzo y ganamos tiempo para...
 
-PRUEBAS, RASTREO, AISLAMIENTO
-Si no alcanzan para R<1, suplementar con **Mascarillas para todos** y/o un "cortocircuito", hasta que podamos...
+PROBAR, RASTREAR, AISLAR
+Si fueran insuficientes para R<1, complementar con **mascarillas para todos** y/o un «cortocircuito», hasta que podamos...
 
 VACUNAR
-Si la inmunidad no dura, vacunar regularmente. Si no conseguimos vacuna, cambiar las normas de comportamiento hasta que podamos tratarlo o curarlo!
+Si la inmunidad no dura, vacunar frecuentemente. Sin vacuna, ¡cambiar las normas de comportamiento hasta que podamos tratarla o curarla!
 
 
 ### r2.png
@@ -92,9 +92,9 @@ contained!
 
 epidemia
 
-endémico
+endémica
 
-contenido!
+¡contenida!
 
 ### r3.png
 #### Original (English) 
@@ -128,12 +128,11 @@ si R_0 es
 
 (1.0 ... 4.0)
 
-entonces necesitas frenar más del
+entonces necesitas evitar más del
 
 (0%, ..., 75%)
 
-de transmisiones para conseguir R<1, y frenar el contagio!
-
+de contagios para conseguir R<1, ¡y detener la epidemia!
 
 ### seir.png
 #### Original (English) 
@@ -152,7 +151,7 @@ recovery
 
 #### Traduction (Spanish) 
 
-más lento cuantos menos
+Más lento cuantos menos
 más rápido cuantos más
 
 Suceptible
@@ -183,7 +182,19 @@ waning
 
 #### Traduction (Spanish) 
 
+Más lento cuantos menos
+más rápido cuantos más
 
+Suceptible
+Expuesto
+Infeccioso
+Recuperado
+
+contagio
+incubación
+recuperación
+
+remitiendo
 
 ### sir.png
 #### Original (English) 
@@ -200,7 +211,15 @@ recovery
 
 #### Traduction (Español) 
 
+Más lento cuantos menos
+más rápido cuantos más
 
+Suceptible
+Infeccioso
+Recuperado
+
+contagio
+recuperación
 
 ### spread.png
 #### Original (English) 
@@ -230,7 +249,11 @@ When population ~0% _, a _ can infect 0% of contact
 
 #### Traduction (Español) 
 
+Cuando población ~100% _, un _ puede contagiar 100% de contactos
 
+Cuando población ~50% _, un _ puede contagiar 50% de contactos
+
+Cuando la población ~0% _, un _ puede contagiar 0% de contactos
 
 ### timeline1.png
 #### Original (English) 
@@ -249,7 +272,17 @@ infects someone else
 
 #### Traduction (Español) 
 
+día 0
+expuesto
 
+día 3
+infeccioso
+
+día 5
+infeccioso (y con síntomas)
+
+día 4
+infecta a otra persona
 
 ### timeline2.png
 #### Original (English) 
@@ -258,7 +291,7 @@ isolate symptomatic cases
 
 #### Traduction (Español) 
 
-
+aislar casos sintomáticos
 
 ### timeline3.png
 #### Original (English) 
