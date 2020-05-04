@@ -488,7 +488,7 @@ Cierto. Las mascarillas no impiden que enferme[^incoming]... impiden que *otras*
 
 [^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) Véase la tabla 1: una camiseta de algodón 100% tiene 2/3 de la eficiencia de transmisión de una mascarilla quirúrgica, para los dos aerosoles que probaron.
 
-![](pics/masks.png)
+![](pics/es_ES/masks.png)
 
 Para ponerlo en números: las mascarillas quirúrgicas *en la persona enferma* reduce la cantidad de virus de la gripe y el resfriado en los aerosoles en un 70%.[^outgoing] ¡La reducción de contagios en un 70% tendría el mismo impacto que un confinamiento!
 
@@ -607,7 +607,7 @@ Para estas simulaciones, digamos que es 1 año.
 
 Este es el **modelo SEIRS**. La «S» es por las personas <icon s></icon> Susceptibles, de nuevo.
 
-![](pics/seirs.png)
+![](pics/es_ES/seirs.png)
 
 Ahora, vamos a simular un brote de la COVID-19, durante 10 años, sin intervenciones... *si la inmunidad sólo durase un año:*
 
