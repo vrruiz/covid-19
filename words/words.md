@@ -129,13 +129,13 @@ la *segunda* idea más importante en la Introducción a la Epidemiología:
 
 ![](pics/sir.png)
 
-**NOTA: Las simulaciones usadas en la toma de decisiones públicas son mucho, *mucho* más sofisticadas que ésta!** Pero el modelo SIR puede explicar los mismos fenómenos generales, aún sin sus matices.
+**NOTA: Las simulaciones usadas en la toma de decisiones públicas son mucho, *mucho* más sofisticadas que ésta!** Pero el modelo SIR puede explicar los mismos fenómenos generales, aún sin todos sus matices.
 
 Bueno, vamos a añadir otro matiz más: antes de que <icon s></icon> se convierta en <icon i></icon>, antes se convierten en personas <icon e></icon> Expuestas. Esto pasa cuando tienen el virus pero aún no pueden transmitirlo –infec*tadas* pero todavía no son infec*ciosas*.
 
 ![](pics/seir.png)
 
-(Esta variante es el denominado **modelo SEIR**[^seir], donde «E» son las personas <icon e></icon> «Expuestas». Ten en cuenta que este *no es* el significado habitual de «expuesto», cuando puedes o puedes no tener el virus. En esta definición técnica, «Expuesto» significa que lo tienes con seguridad. La terminología científica es mala).
+(Esta variante es el denominado **modelo SEIR**[^seir], donde «E» son las personas <icon e></icon> «Expuestas». Ten en cuenta que este *no es* el significado habitual de «expuesto», cuando podrías tener o no el virus. En esta definición técnica, «Expuesto» significa que lo tienes con seguridad. La terminología científica es mala).
 
 [^seir]: Para más explicaciones técnicas del modelo SEIR, consultar [Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-seir.html) and [Wikipedia](https://es.wikipedia.org/wiki/Modelaje_matemático_de_epidemias#Modelo_SEIR)
 
@@ -150,7 +150,7 @@ La <b style='color:#888'>curva gris</b> son casos *totales* (actuales + recupera
 		<iframe src="sim?stage=epi-5" width="800" height="540"></iframe>
 </div>
 
-¡Sin grandes cambios! El tiempo en el que se está <icon e></icon> Expuesto cambia con la relación de <icon e></icon>-a-<icon i></icon>, y *cuándo* ocurre el pico de casos actuales... pero la *altura* del pico, y el total de casos, no cambian.
+¡Sin grandes cambios! El tiempo en el que se está <icon e></icon> Expuesto cambia con la relación de <icon e></icon>-a-<icon i></icon> y el *momento* en el que ocurre el pico de casos actuales... pero la *altura* del pico y el total de casos no cambian.
 
 ¿Por qué? Por la *primera* y más importante idea de la Introducción a la Epidemiología:
 
@@ -160,7 +160,7 @@ Abreviación de «número reproductivo». Es el número de personas *promedio* a
 
 ![](pics/r2.png)
 
-**R** cambia en el transcurso de una epidemia, según se obtiene más inmunidad y hay más intervenciones.
+**R** cambia durante el transcurso de una epidemia, según se obtiene más inmunidad y se realizan más intervenciones.
 
 **R<sub>0</sub>** es el número R *al comienzo de un brote, antes de la inmunidad o las intervenciones*. R<sub>0</sub> refleja sobre todo el poder del propio virus, aunque cambia de un lugar a otro. Por ejemplo, R<sub>0</sub> es mayor en ciudades de gran densidad que en las áreas rurales y dispersas.
 
@@ -192,7 +192,7 @@ Pero recuerde, cuantas menos personas <icon s></icon>s haya, más *lentamente* s
 		<iframe src="sim?stage=epi-6b&format=calc" width="285" height="390"></iframe>
 </div>
 
-Cuando haya un número suficiente de personas con inmunidad, R < 1, y el virus esté contenido, eso se llama **inmunidad de grupo**. Para la gripe la inmunidad de grupo se consigue *con una vacuna*. Intentar alcanzar la «inmunidad de grupo natural» dejando que las personas se contagien es una idea *horrible*. (¡Pero no por lo que quizás estés pensando! Luego lo explicamos).
+Cuando haya un número suficiente de personas con inmunidad, R < 1, y el virus esté contenido, eso se llama **inmunidad de grupo**. Para la gripe la inmunidad de grupo se consigue *con una vacuna*. Intentar alcanzar la «inmunidad de grupo natural» dejando que las personas se contagien es una idea *horrible*. (¡Pero no por la razón que quizás estás pensando! Luego lo explicamos).
 
 Ahora, juguemos con el modelo SEIR otra vez, pero mostrando R<sub>0</sub>, R en el tiempo y el umbral de la inmunidad de grupo:
 
@@ -226,7 +226,7 @@ Es una paradoja. La COVID-19 es extremadamente contagiosa, pero para contenerla,
 
 ![](pics/r4.png)
 
-(Si crees que R<sub>0</sub> o el resto de números de nuestras simulaciones son muy pequeños/grandes, ¡es estupendo que cuestiones nuestras suposiciones! Tenemos un «área de juegos» al final de esta guía, donde podrás indicar tus *propios* números y simular lo que ocurre con ellos).
+(Si crees que R<sub>0</sub> o el resto de números de nuestras simulaciones son muy pequeños/grandes, ¡es estupendo que cuestiones nuestras suposiciones! Tenemos una «zona de juegos» al final de esta guía, donde podrás indicar tus *propios* números y simular lo que ocurre con ellos).
 
 *Todas* las intervenciones para la COVID-19 que has oído –lavado de manos, distanciamiento social/físico, confinamientos, auto-aislamiento, cuarentenas y rastreo de contactos, mascarillas, incluso la «inmunidad de grupo»– *todas* hacen exactamente lo mismo:
 
@@ -470,11 +470,11 @@ Pero, ¿qué ocurre si *aún así* las cosas van mal? Ya han ido mal. Eso es mie
 
 Los pesismistas inventan los paracaídas.
 
-###Escenario 4+: Máscarillas para todos, verano, cortocircuitos
+###Escenario 4+: Mascarillas para todos, verano, cortocircuitos
 
-¿Qué pasa si R<sub>0</sub> es mucho mayor de lo que pensamos, y las intervenciones anteriores, incluso con distanciamiento leve, *aún* no son suficientes para que R < 1?
+¿Qué pasa si R<sub>0</sub> es mucho mayor de lo que pensamos y las intervenciones anteriores, incluso con distanciamiento leve, *aún* no son suficientes para que R < 1?
 
-Recuerde, incluso si no podemos hacer que R < 1, la reducción de R disminuye el «exceso» de casos totales, y por lo tanto salva vidas. Pero aún así, R < 1 es lo ideal, así que aquí hay otras formas de reducir R:
+Recuerde, incluso si no podemos hacer que R < 1, la reducción de R disminuye el «exceso» de casos totales y por lo tanto salva vidas. Pero aún así, R < 1 es lo ideal, así que aquí hay otras formas de reducir R:
 
 **Mascarillas para todos:**
 
@@ -496,11 +496,11 @@ Sin embargo, no estamos seguros del impacto de las mascarillas en la COVID-19 *e
 
 [^replication]: Cualquier científico de verdad que lea la última frase estará riéndose-llorando ahora mismo. Ver: [p-hacking](https://en.wikipedia.org/wiki/Data_dredging), [la crisis de replicación](https://es.wikipedia.org/wiki/Crisis_de_replicación))
 
-Sin embargo, las pandemias son como el póker. **Apuesta solo cuando estés seguro al 95% y terminarás perdiéndolo todo.** Como ha apuntado un reciente artículo sobre las mascarillas en el British Medical Journal,[^precautionary] *tenemos* que hacer análisis de riesgo/beneficio en la incertidumbre. Como éste:
+Sin embargo, las pandemias son como el póquer. **Apuesta solo cuando estés seguro al 95% y terminarás perdiéndolo todo.** Como ha apuntado un reciente artículo sobre las mascarillas en el British Medical Journal,[^precautionary] *tenemos* que hacer análisis de coste/beneficio con la incertidumbre. Como éste:
 
 [^precautionary]: «It is time to apply the precautionary principle» [Trisha Greenhalgh et al \[PDF\]](https://www.bmj.com/content/bmj/369/bmj.m1435.full.pdf)
 
-Riesgo: Si alguien lleva mascarillas caseras (que son ~2/3 tan efectivas como las mascarillas quirúrgicas[^homemade]), súper baratas. Y también si hay mascarillas quirúrgicas, más caras pero aún así asequibles.
+Coste: Si alguien lleva mascarillas caseras (que son ~2/3 tan efectivas como las mascarillas quirúrgicas[^homemade]), súper barato. Y si hay mascarillas quirúrgicas, son más caras pero aún así asequibles.
 
 Beneficio: Incluso si hay un 50-50 de probabilidad de que las mascarillas quirúrgicas reduzcan los contagios entre un 0% y 70%, el «valor esperado» medio aún es el 35%, ¡lo mismo que la mitad de un confinamiento! Así que vamos a asumir que las mascarillas quirúrgicas reducen R en un 35%, descontando nuestra incertidumbre. (De nuevo, puedes cuestionar nuestras suposiciones cambiando los ajustes).
 
@@ -510,21 +510,21 @@ Beneficio: Incluso si hay un 50-50 de probabilidad de que las mascarillas quirú
 
 (otros argumentos a favor y en contra de las mascarillas:[^mask_args])
 
-[^mask_args]: **«Necesitamos los suministros para los hospitales».** *No hay discusión.* Pero ése es un argumento para incrementar la producción, no para su racionamiento. Mientras tanto, podemos fabricar mascarillas caseras.
+[^mask_args]: **«Necesitamos los suministros para los hospitales».** *Sin discusión.* Pero ese argumento es para incrementar la producción no para el racionamiento. Mientras tanto, podemos fabricar mascarillas caseras.
 
-   **«Son difíciles de llevar correctamente».** También es difícil lavarnos las manos suguiendo las instrucciones de la OMS – en serio, ¿!«Paso 3) palma derecha contra el dorso de la mano izquierda»?! – pero aún así recomendamos el lavado de las manos, porque lo imperfecto es mejor que nada.
+   **«Son difíciles de llevar correctamente».** También es difícil lavarnos las manos siguiendo las instrucciones de la OMS –en serio, ¿¡«Paso 3) palma derecha contra el dorso de la mano izquierda»!?– pero aún así recomendamos el lavado de las manos, porque lo imperfecto es mejor que nada.
    
-   **«Harán que las personas sean más descuidadas con el lavado de manos y el distanciamiento social».** Claro, los cinturones de seguridad hacen que las personas ignoren las señales de stop, y la limpieza con hilo dental hace que las personas comamos rocas. En serio, opinamos todo lo contrario: las mascarillas son un *recordatorio físico constante* de ser precavidos – ¡y en el este de Asia, las mascarillas también son un símbolo de solidaridad!
+   **«Harán que las personas sean más descuidadas con el lavado de manos y el distanciamiento social».** Claro, los cinturones de seguridad hacen que las personas ignoren las señales de stop y la limpieza con hilo dental hace que las personas comamos rocas. En serio, opinamos todo lo contrario: las mascarillas son un *recordatorio físico constante* de ser precavidos –¡y en el este de Asia, las mascarillas también son un símbolo de solidaridad!
     
     
 
-Las mascarillas *por si solas* no hacen que R < 1. Pero si el lavado de manos y «Probar, rastrear, aislar» sólo nos lleva a R = 1.10, el que 1/3 de las personas lleven mascarillas hacen que R < 1, y ¡el virus está contenido!
+Las mascarillas *por si solas* no hacen que R < 1. Pero si el lavado de manos y «probar, rastrear, aislar» sólo nos lleva a R = 1.10, el que 1/3 de las personas lleven mascarillas hacen que R < 1, y ¡el virus está contenido!
 
 **Verano:**
 
 Vale, esto no es una «intervención» que podamos controlar, ¡pero será de ayuda! Algunos medios informan de que el verano no tendrá efecto con la COVID-19. Tienen solo la mitad de la razón: el verano no hará que R < 1, pero *reducirá* R.
 
-Para la COVID-19, cada 1° Celsius (2.2° Fahrenheit) adicional hace que R disminuya un 1.2%.[^heat] La diferencia entre el verano y el invierno en la ciudad de New York es de 15°C (60°F), así que el verano reducirá R en un 18%.
+Para la COVID-19, cada 1° Celsius (2.2° Fahrenheit) adicional hace que R disminuya un 1.2%.[^heat] La diferencia entre el verano y el invierno en la ciudad de Nueva York es de 15°C (60°F), así que el verano reducirá R en un 18%.
 
 [^heat]: «One-degree Celsius increase in temperature [...] lower[s] R by 0.0225» y «The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2». [Wang, Jingyuan y Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)
 
@@ -532,19 +532,19 @@ Para la COVID-19, cada 1° Celsius (2.2° Fahrenheit) adicional hace que R dismi
 		<iframe src="sim?stage=int-6b&format=calc" width="285" height="220"></iframe>
 </div>
 
-El verano por si solo no hará que R < 1, pero si tenemos recursos limitados, podemos desescalar algunas intervenciones en el verano – para escalarlas de nuevo durante el invierno.
+El verano por si solo no hará que R < 1, pero si tenemos recursos limitados, podemos desescalar algunas intervenciones en el verano –para escalarlas de nuevo durante el invierno.
 
 **Un confinamiento «cortocircuito»:**
 
-Y si con todo eso *aún* no es suficiente para que R < 1... podemos hacer otro confinamiento.
+Y si con todo eso *todavía* no es suficiente para que R < 1... podemos hacer otro confinamiento.
 
 ¡Pero no tendríamos que estar 2 meses cerrados / 1 abierto una y otra vez! Dado que R se reduce, solo tendríamos que tener uno o dos confinamientos de «cortocircuito» antes de que la vacuna esté disponible. (Recientemente, Singapur tuvo que hacerlo, «a pesar» de que tuvo controlada la COVID-19 durante 4 meses. No es un fracaso: esto *es* lo que el éxito requiere).
 
 Aquí hay una simulación de un escenario de «casos vagos»:
 
-1. Confinamiento, y tras él
-2. Una cantidad moderada de higiene y «Probar, Rastrear, Aislar», con una pizca de «mascarillas para todos», y luego...
-3. Uno o más confinamientos de «cortocircuito» antes de que se encuentre la vacuna.
+1. Confinamiento, y tras él..
+2. Una cantidad moderada de higiene y «probar, rastrear, aislar», con una pizca de «mascarillas para todos», y luego...
+3. Uno o más confinamientos de «cortocircuito» antes de encontrar la vacuna.
 
 <div class="sim">
 		<iframe src="sim?stage=int-7&format=lines&height=620" width="800" height="620"></iframe>
@@ -555,20 +555,20 @@ Sin mencionar todas las *otras* intervenciones, para reducir aún más R:
 * Restricciones de viajes/cuarentenas.
 * Comprobación de temperaturas en los centros comerciales y escuelas.
 * Lavado a conciencia de los espacios públicos.
-* [Reemplazo de aprentón de manos con el choque de pies](https://twitter.com/V_actually/status/1233785527788285953).
+* [Reemplazo de apretón de manos con el choque de pies](https://twitter.com/V_actually/status/1233785527788285953).
 * Y el resto de cosas que nos brinda la ingenuidad humana.
 
 . . .
 
 Esperemos que estos planes le den esperanzas. 
 
-**Incluso en un escenario pesimista, *es* posible ganar a la COVID-19, y proteger nuestra salud mental y financiera.** ¡Usa el confinamiento como un «botón de reinicio», mantén R < 1 con el aislamiento de casos + rastreo de contactos con privacidad + *al menos* mascarillas para todos... y la vida puede volver a cierta normalidad!
+**Incluso en un escenario pesimista, *es* posible ganar a la COVID-19 y proteger nuestra salud mental y financiera.** ¡Usa el confinamiento como un «botón de reinicio», mantén R < 1 con el aislamiento de casos + rastreo de contactos con privacidad + *al menos* mascarillas para todos... y la vida puede volver a cierta normalidad!
 
-Claro, te habrás secado las manos. ¡Y podrás planificar la visita a una tienda de tebeos! Y podrás ir con tus amigos a ver el último sacaperras de Hollywood. Podrás ir a observar a otros en una biblioteca, e recogijarte de que la gente vaya por el simple hecho de *estar vivos*.
+Claro, te habrá resultado un proceso complicado. ¡Pero volverás a pedir una cita en una tienda de tebeos! Y podrás ir con tus amigos a ver el último sacaperras de Hollywood. Podrás ir a observar a otros en una biblioteca y regocijarte de que la gente vaya por el simple hecho de *estar vivos*.
 
 Incluso en el peor escenario... la vida continúa.
 
-Así que ahora, planifiquemos algunos de los *peores* escenarios. Aterrizaje en el agua, colóquese el salvavidas, y por favor siga las luces de emergencia que indican la salida:
+Así que ahora, planifiquemos algunos de los *peores* escenarios. Aterrizaje en el agua, colóquese el salvavidas y, por favor, siga las luces de emergencia que indican la salida:
 
 <div class="section chapter">
     <div>
@@ -577,13 +577,13 @@ Así que ahora, planifiquemos algunos de los *peores* escenarios. Aterrizaje en 
     </div>
 </div>
 
-Te contagias de la COVID-19, y te recuperas. O llegas a la vacuna de la COVID-19. En cualquier caso, ahora eres inmune...
+Te contagias de la COVID-19 y te recuperas. O llegas a la vacuna de la COVID-19. En cualquier caso, ahora eres inmune...
 
 ...*¿durante cuanto tiempo?*
 
 * El pariente más cercano de la COVID-19 es el SARS, cuyos supervivientes tuvieron 2 años de inmunidad.[^SARS immunity]
-* Los conarvirus que causan el resfriado común te dan 8 meses de inmunidad.[^cold immunity]
-* Hay informes de personas recuperadas de la COVID-19, que luego han vuelto a dar positivo pero no está claro si han dado falsos positivos.[^unclear]
+* Los conarovirus que causan el resfriado común te dan 8 meses de inmunidad.[^cold immunity]
+* Hay informes de personas recuperadas de la COVID-19 que luego han vuelto a dar positivo pero no está claro si han dado falsos positivos.[^unclear]
 * Y un estudio *aún no revisado por pares* con monos muestran inmunidad al coronavirus de la COVID-19 durante al menos 28 días.[^monkeys]
 
 Pero para la COVID-19 *en humanos*, a día 1 de mayo de 2020, la gran incógnita es «hasta cuándo».
@@ -594,16 +594,16 @@ Pero para la COVID-19 *en humanos*, a día 1 de mayo de 2020, la gran incógnita
 
 [^unclear]: «Once a person fights off a virus, viral particles tend to linger for some time. These cannot cause infections, but they can trigger a positive test». [de STAT News por Andrew Joseph](https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/)
 
-[^monkeys]: De [Bao et al.](https://www.biorxiv.org/content/10.1101/2020.03.13.990226v1.abstract) *Aviso: Este es un borrador de artículo y no ha sido certificado por la revisión por pares (aún).* También es importante hacer hincapié: solo probaron la reinfección 28 días después. 
+[^monkeys]: De [Bao et al.](https://www.biorxiv.org/content/10.1101/2020.03.13.990226v1.abstract) *Aviso: Este es un borrador de artículo y no ha sido certificado por la revisión por pares (aún).* También es importante hacer hincapié: solamente probaron la reinfección 28 días después. 
 
-Para estas simulaciones, digamos que es 1 años.
+Para estas simulaciones, digamos que es 1 año.
 **Esta simulación comienza con 100% <icon r></icon>**, disminuyendo exponencialmente en susceptibles, <icon s></icon>s sin inmunidad después de un año, de *promedio*, con variación:
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-1&format=lines&height=600" width="800" height="600"></iframe>
 </div>
 
-¡El regreso de la de la disminución exponencial!
+¡El regreso de la disminución exponencial!
 
 Este es el **modelo SEIRS**. La «S» es por las personas <icon s></icon> Susceptibles, de nuevo.
 
@@ -615,11 +615,11 @@ Ahora, vamos a simular un brote de la COVID-19, durante 10 años, sin intervenci
 		<iframe src="sim?stage=yrs-2&format=lines&height=600" width="800" height="600"></iframe>
 </div>
 
-En simulaciones anteriores, solo teníamos *un* pico que sobrepasaba las UCIs. Ahora, tenemos muchos, *y* los casos <icon i></icon> se equilibran *permanentemente en* la capacidad de UCIs. (Que, recuerda, hemos *triplicado* para estas simulaciones).
+En simulaciones anteriores, solo teníamos *un* pico que sobrepasaba las UCIs. Ahora, tenemos muchos *y* los casos <icon i></icon> se equilibran *permanentemente en* la capacidad de UCIs. (Que, recuerda, hemos *triplicado* para estas simulaciones).
 
 R = 1, es **endémico.**
 
-Por fortuna, dado que el verano reduce R, mejorará la situación:
+Por fortuna, dado que el verano reduce R, la situación mejorará:
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-3&format=lines&height=640" width="800" height="640"></iframe>
@@ -627,11 +627,11 @@ Por fortuna, dado que el verano reduce R, mejorará la situación:
 
 Oh.
 
-De forma contraintuitiva, ¡el verano hace que los picos empeoren *y* sean más frecuentes! Esto es debido a que el verano reduce las nuevas <icon i></icon>s, pero por otra parte reduce las nuevas <icon r></icon>s inmunes. Lo que significa que la inmunidad se desplome en el verano, *creando* grandes picos frecuentes en el invierno.
+De forma contraintuitiva, ¡el verano hace que los picos empeoren *y* sean más frecuentes! Esto es debido a que el verano reduce las nuevas <icon i></icon>s, pero por otra parte reduce las nuevas <icon r></icon>s inmunes. Lo que significa que la inmunidad se desploma en el verano *creando* grandes picos frecuentes en el invierno.
 
-Por fortuna, la solución a este problema es bastante sencilla – solo hay que vacunar a la población en cada otoño/invierno, como hacemos con las vacunas de la gripe:
+Por fortuna, la solución a este problema es bastante sencilla: solo hay que vacunar a la población en cada otoño/invierno, como hacemos con las vacunas de la gripe:
 
-**(Después de ver la grabación, intenta simular tus propias campañas de vacunación! Recuerda que en cualquier momento puedes detener/continuar la simulación).**
+**(Después de ver la grabación, ¡intenta simular tus propias campañas de vacunación! Recuerda que puedes detener/continuar la simulación en cualquier momento).**
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-4&format=lines" width="800" height="540"></iframe>
@@ -641,23 +641,23 @@ Pero aquí hay una pregunta más aterradora:
 
 ¿Y qué pasa si durante *años* no hay ninguna vacuna? ¿O *nunca*?
 
-**Seamos claros: esto es muy poco probable.** La mayoría de epidemiólogos piensan que habrá una vacuna para 2021 o 2022. Por supuesto, nunca ha habido una vacuna para ninguno de los otros coronavirus, pero eso fue porque el SARS se erradicó rápidamente, y para «el» resfriado común no ha valido la pena el esfuerzo. 
+**Seamos claros: esto es muy poco probable.** La mayoría de epidemiólogos piensan que habrá una vacuna para 2021 o 2022. Por supuesto, nunca ha habido una vacuna para ninguno de los otros coronavirus, pero eso fue porque el SARS se erradicó rápidamente, y para «el» resfriado común dicho esfuerzo no ha valido la pena. 
 
 Aún así, los investigadores de enfermedades contagiosas han expresado sus temores: ¿Y si no podemos hacer suficientes?[^vax_enough] ¿Qué pasa si nos damos prisa y al final no es segura?[^vax_safe]
 
-[^vax_enough]: «If a coronavirus vaccine arrives, can the world make enough?» [by Roxanne Khamsi, on Nature](https://www.nature.com/articles/d41586-020-01063-8)
+[^vax_enough]: «If a coronavirus vaccine arrives, can the world make enough?» [por Roxanne Khamsi, en Nature](https://www.nature.com/articles/d41586-020-01063-8)
 
-[^vax_safe]: «Don’t rush to deploy COVID-19 vaccines and drugs without sufficient safety guarantees» [by Shibo Jiang, on Nature](https://www.nature.com/articles/d41586-020-00751-9)
+[^vax_safe]: «Don’t rush to deploy COVID-19 vaccines and drugs without sufficient safety guarantees» [por Shibo Jiang, en Nature](https://www.nature.com/articles/d41586-020-00751-9)
 
 Incluso en el escenario «sin vacuna», aún tenemos 3 maneras de escapar. De la más a la menos espantosa:
 
-1) Hacer intervenciones R < 1 intermitentes o suaves, para llegar a la «inmunidad de grupo». (Aviso: esto implica muchas muertes y pulmones dañados. *Y* no funciona si la inmunidad no es duradera).
+1) Hacer intervenciones R < 1 intermitentes o suaves para llegar a la «inmunidad de grupo». (Aviso: esto implica muchas muertes y muchos pulmones dañados. *Y* no funciona si la inmunidad no es duradera).
 
 2) Hacer que las intervenciones R < 1 sean persistentes. El rastreo de contactos y las mascarillas se convierten en la nueva normalidad en el mundo post-COVID-19, igual que las pruebas ITC y llevar condón se convirtieron en la norma en el mundo post-VIH.
 
-3) Hacer intervenciones R < 1 hasta que se desarrollen tratamientos para la COVID-19 con los que sea mucho, mucho, mucho menos probable la necesidad de cuidados intensivos. (Lo que deberíamos estar haciendo *¡en cualquier caso!*) La reducción del uso de UCIs por 10x es lo mismo que incrementar nuestra capacidad de UCIs por 10x:
+3) Hacer intervenciones R < 1 hasta que se desarrollen tratamientos para la COVID-19 con los que sea mucho, mucho, mucho menos probable la necesidad de cuidados intensivos. (Lo que deberíamos hacer *¡en cualquier caso!*) La reducción del uso de UCIs por 10x es lo mismo que incrementar nuestra capacidad de UCIs por 10x:
 
-**Aquí hay una simulación en la que *no* hay una inmunidad duradera, *no hay* vacuna, e incluso no hay ninguna intervención – solo un incremento lento de la capacidad para sobrevivit a los picos de largo plazo:**
+**Aquí hay una simulación en la que *no* hay una inmunidad duradera, *no hay* vacuna, e incluso no hay ninguna intervención, solo un incremento lento de la capacidad para sobrevivir a los picos de largo plazo:**
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-5&format=lines" width="800" height="540"></iframe>
@@ -667,15 +667,15 @@ Incluso en el *peor* de los peores escenarios... la vida prevalece.
 
 . . .
 
-Quizás quieras poner en cuestión nuestras suposiciones, e intentar unos R<sub>0</sub>s diferentes u otros números. ¡O intentar simular tu *propia* combinación de planes de intervención!
+Quizás quieras cuestionar nuestras suposiciones e intentar unos R<sub>0</sub>s diferentes u otros números. ¡O intentar simular tu *propia* combinación de planes de intervención!
 
-**Aquí hay un «modo de juego» (opcional), con *todo* disponible. (deslizar para ver todos los controles) ¡Simula y juega tanto como quieras!:**
+**Aquí hay un «zona de juego» (opcional), con *todo* disponible. (deslizar para ver todos los controles) ¡Simula y juega tanto como quieras!:**
 
 <div class="sim">
 		<iframe src="sim?stage=SB&format=sb" width="800" height="540"></iframe>
 </div>
 
-Este «simular de vuelo de epidemias» básico nos ha enseñador mucho. Nos ha permitido encontrar respuestas a dudas que teníamos sobre los pasados meses, los próximos meses, y los próximos años.
+Este «simular de vuelo de epidemias» básico nos ha enseñado mucho. Nos ha permitido encontrar respuestas a dudas que teníamos sobre los pasados meses, los próximos meses y los próximos años.
 
 Así que, finalmente, regresemos a...
 
@@ -690,20 +690,20 @@ El avión se ha hundido. Hemos corrido a los botes salvavidas. Ahora es momento 
 
 [^dry_land]: La metáfora de la tierra firme es [de Marc Lipsitch y Yonatan Grad, en STAT News](https://www.statnews.com/2020/04/01/navigating-covid-19-pandemic/)
 
-Equipos de epidemiólogos y políticos de la ([izquierda](https://www.americanprogress.org/issues/healthcare/news/2020/04/03/482613/national-state-plan-end-coronavirus-crisis/), [derecha](https://www.aei.org/research-products/report/national-coronavirus-response-a-road-map-to-reopening/ ), y [multi-partidistas](https://ethics.harvard.edu/covid-roadmap)) han llegado al consenso de que para ganar a la COVID-19, debemos proteger nuestras vidas *y* libertades.
+Equipos de epidemiólogos y políticos de la ([izquierda](https://www.americanprogress.org/issues/healthcare/news/2020/04/03/482613/national-state-plan-end-coronavirus-crisis/), la [derecha](https://www.aei.org/research-products/report/national-coronavirus-response-a-road-map-to-reopening/ ) y [multi-partidistas](https://ethics.harvard.edu/covid-roadmap)) han llegado al consenso de que para ganar a la COVID-19 debemos proteger nuestras vidas *y* libertades.
 
 Esta es la idea general, con algunos planes de contingencia (sin consenso):
 
 ![](pics/plan.png)
 
-¿Qué es lo que esto implica para TI, ahora mismo?
+¿Qué es lo que esto implica para TÍ, ahora mismo?
 
-**Para todos:** Respeta el confinamiento para que podamos pasar de la Fase 1 rápidamente. Mantén limpias esas manos. Fabrica tus propias mascarillas. Descarga una aplicación de rastreo de contactos *que proteja la privacidad* cuando estén disponibles el próximo mes. Mantente sano, ¡física y mentalmente! Y escribe a tu representante público para que mueva el culo y...
+**Para todos:** Respeta el confinamiento para que podamos pasar de la Fase 1 rápidamente. Mantén limpias esas manos. Fabrica tus propias mascarillas. Descarga una aplicación de rastreo de contactos *que proteja la privacidad* cuando estén disponibles el próximo mes. Mantente sano ¡física y mentalmente! Y escribe a tu representante público para que mueva el culo y...
 
-**Para políticos:** Promulga leyes que apoyen a quienes tienen que auto-aislarse/hacer cuarentena. Contrata muchos más rastreadores de contactos, *apoyados* por aplicaciones aplicaciones de rastreo de contactos que protejan la privacidad. Inyecta más fondos en las cosas que deberíamos estar fabricando, como...
+**Para políticos:** Promulga leyes que apoyen a quienes tienen que auto-aislarse/hacer cuarentena. Contrata muchos más rastreadores de contactos, *apoyados* por aplicaciones aplicaciones de rastreo de contactos que protejan la privacidad. Ofrece más fondos a cosas que deberíamos estar fabricando, como...
 
-**Para fabricantes:** Haz pruebas. Fabrica ventiladores. Fabrica equipo de protección individual para los hospitales. Haz aplicaciones. Haz antivirales, profilácticos, y otros tratamientos que no son vacunas. Fabrica vacuna. Haz pruebas. Haz pruebas. Haz pruebas. Crea esperanza. 
+**Para fabricantes:** Haz pruebas. Fabrica ventiladores. Fabrica equipo de protección individual para los hospitales. Haz aplicaciones. Haz antivirales, profilácticos y otros tratamientos que no son vacunas. Fabrica vacunas. Haz pruebas. Haz pruebas. Haz pruebas. Da esperanzas. 
 
-No subestimemos el miedo para crear esperanza. Nuestro miedo debería *hacer equipo* con nuestra esperanza, como los inventores de los aviones y los paracaídas. *Creamos* un futuro esperanzado preparándonos para futuros horribles.
+No subestimemos el miedo para dar esperanzas. Nuestro miedo debería *hacer equipo* con nuestra esperanza, como los inventores de los aviones y los paracaídas. *Creamos* un futuro esperanzado preparándonos para futuros horribles.
 
-La única cosa temer es la idea de que la única cosa a temer es al miedo mismo.
+La única cosa a temer es la idea de que la única cosa a temer es al miedo mismo.
