@@ -321,7 +321,7 @@ kbd {
 		word-wrap: break-word;
 	}
   body {
-    padding: 2cm;
+    padding: 2cm; 
   }
 }
 </style>
@@ -355,11 +355,11 @@ kbd {
     </div>
 </div>
 
-<p>«Sólo tenemos que temer al propio miedo» fue un consejo estúpido.</p>
+<p>Lo de «sólo tenemos que temer al propio miedo» fue un consejo estúpido.</p>
 
-<p>Por supuesto, no hay que hacer acopio del papel higiénico, pero si los responsables públicos tienen miedo al miedo, tenderán a minimizar los peligros reales para evitar la «histeria colectiva». El problema no es el miedo, es cómo <em>canalizamos</em> nuestro miedo. El miedo nos da fuerzas para enfrentarnos a los peligros actuales y prepararnos para los futuros.</p>
+<p>Por supuesto, no hay que hacer acopio de papel higiénico, pero si los responsables públicos tienen miedo al miedo tenderán a minimizar los peligros reales para evitar la «histeria colectiva». El problema no es el miedo, es cómo <em>canalizamos</em> nuestro miedo. El miedo nos da fuerzas para enfrentarnos a los peligros actuales y prepararnos para los futuros.</p>
 
-<p>Sinceramente, nosotros (Marcel, epidemiólogo + Nicky, arte/código) estamos preocupados. ¡Y pensamos que tú también lo estarás! Por eso hemos canalizado nuestro miedo haciendo estas <strong>simulaciones interactivas</strong>, para que <em>tu</em> puedes canalizar tu miedo en comprensión:</p>
+<p>Sinceramente, nosotros (Marcel, epidemiólogo + Nicky, arte/código) estamos preocupados. ¡Y pensamos que tú también lo estarás! Por eso hemos canalizado nuestro miedo haciendo estas <strong>simulaciones interactivas</strong>, para que <em>tú</em> canalices tu miedo en comprensión:</p>
 
 <ul>
 <li><strong>Los últimos meses</strong> (introducción a la epidemiología, modelo SEIR, R y R<sub>0</sub>).</li>
@@ -384,7 +384,7 @@ kbd {
 
 <p>Así que, venga, ¡hagamos un «simulador de vuelo de epidemias» muy, <em>muy</em> simple! En esta simulación, las personas <icon i></icon> Infecciosas pueden convertir a las personas <icon s></icon> Susceptibles en aún más personas <icon i></icon> Infecciosas:</p>
 
-<p><img src="pics/spread.png" alt=""></p>
+<p><img src="pics/es_ES/spread.png" alt=""></p>
 
 <p>Se estima que, <em>al comienzo</em> de un brote de la COVID-19, el virus salta de una <icon i></icon> a una <icon s></icon> cada 4 días, <em>en promedio</em>.<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup> (Recuerde, hay mucha variabilidad).</p>
 
@@ -398,11 +398,11 @@ kbd {
 
 <p>Esta es la <strong>curva de crecimiento exponencial.</strong> Comienza plana y en determinado momento explota. De «ah, es cómo la gripe» a «ah claro, la gripe no crea <em>fosas comunes en ciudades desarrolladas</em>».</p>
 
-<p><img src="pics/exponential.png" alt=""></p>
+<p><img src="pics/es_ES/exponential.png" alt=""></p>
 
 <p>Pero esta simulación no es correcta. El crecimiento exponencial, afortunadamente, no puede continuar indefinidamente. Una cosa que detiene el contagio es cuando <em>ya hay</em> personas que tienen el virus:</p>
 
-<p><img src="pics/susceptibles.png" alt=""></p>
+<p><img src="pics/es_ES/susceptibles.png" alt=""></p>
 
 <p>Cuantas más <icon i></icon>s haya, más rápido las <icon s></icon>s se vuelven <icon i></icon>s, <strong>pero cuantas menos <icon s></icon>s haya, más <em>lento</em> la <icon s></icon>s se convertirán en <icon i></icon>s.</strong></p>
 
@@ -428,7 +428,7 @@ kbd {
 
 <p>Y ahora, ¿qué pasa si simulas un crecimiento logístico con forma de S <em>con</em> recuperación?</p>
 
-<p><img src="pics/graphs_q.png" alt=""></p>
+<p><img src="pics/es_ES/graphs_q.png" alt=""></p>
 
 <p>Vamos a comprobarlo.</p>
 
@@ -446,13 +446,13 @@ comienzan con solo 0.001% <icon i></icon>:</p>
 (<icon s></icon><strong>S</strong>usceptibles <icon i></icon><strong>I</strong>nfecciosos <icon r></icon><strong>R</strong>ecuperados)<br>
 la <em>segunda</em> idea más importante en la Introducción a la Epidemiología:</p>
 
-<p><img src="pics/sir.png" alt=""></p>
+<p><img src="pics/es_ES/sir.png" alt=""></p>
 
 <p><strong>NOTA: Las simulaciones usadas en la toma de decisiones públicas son mucho, <em>mucho</em> más sofisticadas que ésta!</strong> Pero el modelo SIR puede explicar los mismos fenómenos generales, aún sin todos sus matices.</p>
 
 <p>Bueno, vamos a añadir otro matiz más: antes de que <icon s></icon> se convierta en <icon i></icon>, antes se convierten en personas <icon e></icon> Expuestas. Esto pasa cuando tienen el virus pero aún no pueden transmitirlo –infec<em>tadas</em> pero todavía no son infec<em>ciosas</em>.</p>
 
-<p><img src="pics/seir.png" alt=""></p>
+<p><img src="pics/es_ES/seir.png" alt=""></p>
 
 <p>(Esta variante es el denominado <strong>modelo SEIR</strong><sup id="fnref6"><a href="#fn6" rel="footnote">6</a></sup>, donde «E» son las personas <icon e></icon> «Expuestas». Ten en cuenta que este <em>no es</em> el significado habitual de «expuesto», cuando podrías tener o no el virus. En esta definición técnica, «Expuesto» significa que lo tienes con seguridad. La terminología científica es mala).</p>
 
@@ -469,11 +469,11 @@ La <b style='color:#888'>curva gris</b> son casos <em>totales</em> (actuales + r
 
 <p>¿Por qué? Por la <em>primera</em> y más importante idea de la Introducción a la Epidemiología:</p>
 
-<p><img src="pics/r.png" alt=""></p>
+<p><img src="pics/es_ES/r.png" alt=""></p>
 
 <p>Abreviación de «número reproductivo». Es el número de personas <em>promedio</em> a las que una <icon i></icon> contagia <em>antes</em> de recuperarse (o fallecer).</p>
 
-<p><img src="pics/r2.png" alt=""></p>
+<p><img src="pics/es_ES/r2.png" alt=""></p>
 
 <p><strong>R</strong> cambia durante el transcurso de una epidemia, según se obtiene más inmunidad y se realizan más intervenciones.</p>
 
@@ -513,13 +513,13 @@ La <b style='color:#888'>curva gris</b> son casos <em>totales</em> (actuales + r
 
 <p><strong>Si sólo hubiera una lección que llevarse de esta guía, es ésta</strong> –es un diagrama extremadamente complejo así que, por favor, tómate tu tiempo para comprenderlo en su totalidad:</p>
 
-<p><img src="pics/r3.png" alt=""></p>
+<p><img src="pics/es_ES/r3.png" alt=""></p>
 
 <p><strong>Esto significa: ¡NO necesitamos detener todos los contagios, o casi todos los contagios, para detener a la COVID-19!</strong></p>
 
 <p>Es una paradoja. La COVID-19 es extremadamente contagiosa, pero para contenerla, «sólo» necesitamos evitar al menos el 60% de las infecciones. ¿¡El 60%!? Si fuera una nota de la escuela, sería un 6. Pero si R<sub>0</sub> = 2.5, disminuir eso un 61% nos da R = 0.975, que es R &lt; 1, ¡el virus está contenido! (Fórmula exacta:<sup id="fnref12"><a href="#fn12" rel="footnote">12</a></sup>).</p>
 
-<p><img src="pics/r4.png" alt=""></p>
+<p><img src="pics/es_ES/r4.png" alt=""></p>
 
 <p>(Si crees que R<sub>0</sub> o el resto de números de nuestras simulaciones son muy pequeños/grandes, ¡es estupendo que cuestiones nuestras suposiciones! Tenemos una «zona de juegos» al final de esta guía, donde podrás indicar tus <em>propios</em> números y simular lo que ocurre con ellos).</p>
 
@@ -552,7 +552,7 @@ La <b style='color:#888'>curva gris</b> son casos <em>totales</em> (actuales + r
 
 <p>No tiene buena pinta.</p>
 
-<p>Esto es lo que <a href="http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-9-impact-of-npis-on-covid-19/">el informe del 16 de marzo del Imperial College</a> concluyó: sin hacer nada, nos quedamos sin UCIs libres, y se contagiaría más del 80% de la población.
+<p>Esto es lo que <a href="http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-9-impact-of-npis-on-covid-19/">el informe del 16 de marzo del Imperial College</a> concluyó: sin hacer nada, nos quedamos sin UCIs libres, y se contagiaría más del 80% de la población. 
 (recuerda: el total de casos <em>excede</em> la inmunidad de grupo)</p>
 
 <p>Incluso si sólo el 0.5% de las personas contagiadas mueren –una suposición optimista cuando no hay más UCIs– en un país poblado como EEUU, con 300 millones de personas, el 0.5% del 80% de 300 millones = 1.2 millones de fallecidos... <em>SI no se hace nada.</em></p>
@@ -589,9 +589,9 @@ La <b style='color:#888'>curva gris</b> son casos <em>totales</em> (actuales + r
 <li><p>Aún te puedes quedar sin UCIs. Durante muchos meses. (Y recuerda, <em>ya</em> hemos triplicado las UCIs para estas simulaciones).</p></li>
 </ol>
 
-<p>Ese fue otro descubrimiento del informe del Imperial College del 16 de marzo, que convenció al Reino Unido de abandonar su plan original. Cualquier intento de <strong>mitigación</strong> (reducir R, pero R &gt; 1) fracasará. La única forma de tener éxito es la <strong>supresión</strong> (reducir R de modo que R &lt; 1).</p>
+<p>Ese fue otro descubrimiento del informe del Imperial College del 16 de marzo, que convenció al Reino Unido de abandonar su plan original. Cualquier intento de <strong>mitigación</strong> (reducir R, pero R &gt; 1) fracasará. La única forma de tener éxito es la <strong>eliminación</strong> (reducir R de modo que R &lt; 1).</p>
 
-<p><img src="pics/mitigation_vs_suppression.png" alt=""></p>
+<p><img src="pics/es_ES/mitigation_vs_suppression.png" alt=""></p>
 
 <p>Eso no es «aplana» la curva, es <em>despachurra</em> la curva. Por ejemplo, con un...</p>
 
@@ -643,17 +643,17 @@ La <b style='color:#888'>curva gris</b> son casos <em>totales</em> (actuales + r
 
 <p>Para comprender cómo Taiwán y Corea del Sur han contenido la COVID-19, necesitamos comprender la cronología de una infección típica de la COVID-19<sup id="fnref21"><a href="#fn21" rel="footnote">21</a></sup>:</p>
 
-<p><img src="pics/timeline1.png" alt=""></p>
+<p><img src="pics/es_ES/timeline1.png" alt=""></p>
 
 <p>Si los casos solamente se auto-aíslan cuando se ponen enfermos (esto es, cuando sienten los síntomas), el virus se puede contagiar:</p>
 
-<p><img src="pics/timeline2.png" alt=""></p>
+<p><img src="pics/es_ES/timeline2.png" alt=""></p>
 
 <p>Y, de hecho, el 44% de todos los contagios son así: ¡<em>pre</em>-sintomáticos! <sup id="fnref22"><a href="#fn22" rel="footnote">22</a></sup></p>
 
 <p>Pero, si encontramos <em>y ponemos en cuarentena</em> a los casos sintomáticos y a sus contactos cercanos... ¡detenemos el contagio, al adelantarnos!</p>
 
-<p><img src="pics/timeline3.png" alt=""></p>
+<p><img src="pics/es_ES/timeline3.png" alt=""></p>
 
 <p>Esto se denomina <strong>rastreo de contactos</strong>. Es una vieja idea, que se usó a una escala sin precedentes para contener el ébola<sup id="fnref23"><a href="#fn23" rel="footnote">23</a></sup>, ¡y ahora es el núcleo central de la estrategia de contención de la COVID-10 de Taiwán y Corea del Sur!</p>
 
@@ -669,7 +669,7 @@ La <b style='color:#888'>curva gris</b> son casos <em>totales</em> (actuales + r
 
 <p>Aquí se ve cómo funciona:</p>
 
-<p><img src="pics/dp3t.png" alt=""></p>
+<p><img src="pics/es_ES/dp3t.png" alt=""></p>
 
 <p>(y <a href="https://ncase.me/contact-tracing/">aquí el cómic completo</a>)</p>
 
@@ -914,7 +914,7 @@ La <b style='color:#888'>curva gris</b> son casos <em>totales</em> (actuales + r
 
 <p>Esta es la idea general, con algunos planes de contingencia (sin consenso):</p>
 
-<p><img src="pics/plan.png" alt=""></p>
+<p><img src="pics/es_ES/plan.png" alt=""></p>
 
 <p>¿Qué es lo que esto implica para TÍ, ahora mismo?</p>
 
