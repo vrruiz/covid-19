@@ -352,7 +352,7 @@ Veamos, está bien dibujar una línea diciendo «capacidad UCIs» pero hay un mo
 
 **Salud financiera:** «Qué pasa con la economía» suena a que te preocupa más el dinero que las vidas, pero «la economía» no son sólo las acciones: es la posibilidad de que las personas provean comida y protección a sus seres queridos, de que inviertan en el futuro de sus hijos, y de que disfruten del arte, la gastronomía, los videojuegos –las cosas que hacen que valga la pena vivir. Eso sin contar con que la pobreza *en sí misma* tiene un impacto terrible en la saludad física y mental.
 
-¡No estamos diciendo que no haya que confinarse! Más tarde veremos los confinamientos «cortocircuito». Aún así, no son la solución ideal.
+¡No estamos diciendo que no haya que confinarse! Más tarde veremos los confinamientos «cortacircuitos». Aún así, no son la solución ideal.
 
 Pero espera... ¿Taiwan y Corea del Sur no han contenido *ya* la COVID-19? ¿Durante cuatro meses completos y *sin* confinamientos duraderos?
 
@@ -470,7 +470,7 @@ Pero, ¿qué ocurre si *aún así* las cosas van mal? Ya han ido mal. Eso es mie
 
 Los pesismistas inventan los paracaídas.
 
-###Escenario 4+: Mascarillas para todos, verano, cortocircuitos
+###Escenario 4+: Mascarillas para todos, verano, cortacircuitos
 
 ¿Qué pasa si R<sub>0</sub> es mucho mayor de lo que pensamos y las intervenciones anteriores, incluso con distanciamiento leve, *aún* no son suficientes para que R < 1?
 
@@ -534,17 +534,17 @@ Para la COVID-19, cada 1° Celsius (2.2° Fahrenheit) adicional hace que R dismi
 
 El verano por si solo no hará que R < 1, pero si tenemos recursos limitados, podemos desescalar algunas intervenciones en el verano –para escalarlas de nuevo durante el invierno.
 
-**Un confinamiento «cortocircuito»:**
+**Un confinamiento «cortacircuito»:**
 
 Y si con todo eso *todavía* no es suficiente para que R < 1... podemos hacer otro confinamiento.
 
-¡Pero no tendríamos que estar 2 meses cerrados / 1 abierto una y otra vez! Dado que R se reduce, solo tendríamos que tener uno o dos confinamientos de «cortocircuito» antes de que la vacuna esté disponible. (Recientemente, Singapur tuvo que hacerlo, «a pesar» de que tuvo controlada la COVID-19 durante 4 meses. No es un fracaso: esto *es* lo que el éxito requiere).
+¡Pero no tendríamos que estar 2 meses cerrados / 1 abierto una y otra vez! Dado que R se reduce, solo tendríamos que tener uno o dos confinamientos «cortacircuitos» antes de que la vacuna esté disponible. (Recientemente, Singapur tuvo que hacerlo, «a pesar» de que tuvo controlada la COVID-19 durante 4 meses. No es un fracaso: esto *es* lo que el éxito requiere).
 
 Aquí hay una simulación de un escenario de «casos vagos»:
 
 1. Confinamiento, y tras él..
 2. Una cantidad moderada de higiene y «probar, rastrear, aislar», con una pizca de «mascarillas para todos», y luego...
-3. Uno o más confinamientos de «cortocircuito» antes de encontrar la vacuna.
+3. Uno o más confinamientos de «cortacircuitos» antes de encontrar la vacuna.
 
 <div class="sim">
 		<iframe src="sim?stage=int-7&format=lines&height=620" width="800" height="620"></iframe>
