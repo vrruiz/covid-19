@@ -22,7 +22,7 @@
 	</div>
 </div>
 
-Lo de «sólo tenemos que temer al propio miedo» fue un consejo estúpido.
+Lo de «sólo tenemos que temer al propio miedo» es un consejo estúpido.
 
 Por supuesto, no hay que hacer acopio de papel higiénico, pero si los responsables públicos tienen miedo al miedo tenderán a minimizar los peligros reales para evitar la «histeria colectiva». El problema no es el miedo, es cómo *canalizamos* nuestro miedo. El miedo nos da fuerzas para enfrentarnos a los peligros actuales y prepararnos para los futuros.
 
@@ -416,7 +416,7 @@ Junto a otros equipos similares como Protocolo TCN [^tcn] y MIT PACT[^pact], han
 
 Pero ¿qué pasa con las personas que no tienen teléfonos inteligentes? ¿O con los contagios a través de las puertas? ¿O con los casos «realmente» asintomáticos? Las aplicaciones de rastreo de contactos no pueden identificar todas las infecciones... y *¡no hay ningún problema con eso!* No estamos obligados a identificar *todos* los contagios, solamente ese 60% o más necesario para que R < 1.
 
-(Diatraba sobre la confusión entre pre-sintomáticos y asintomáticos «reales». Los asintomáticos «reales» son muy pocos:[^rant])
+(Diatriba sobre la confusión entre pre-sintomáticos y asintomáticos «reales». Los asintomáticos «reales» son muy pocos:[^rant])
 
 [^rant]: Hay muchas noticias  –y, sinceramente, muchos artículos científicos– que no distinguen entre «casos que no han mostrado síntomas cuando les hicimos la prueba» (pre-sintomáticos) y «casos que *nunca* mostraron síntomas» (asintomáticos reales). La única manera de hallar la diferencia es mediante un seguimiento pormenorizado de los casos.
    
