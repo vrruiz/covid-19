@@ -696,7 +696,7 @@ Esta es la idea general, con algunos planes de contingencia (sin consenso):
 
 ![](pics/es_ES/plan.png)
 
-¿Qué es lo que esto implica para TÍ, ahora mismo?
+¿Qué es lo que esto implica para TI, ahora mismo?
 
 **Para todos:** Respeta el confinamiento para que podamos pasar de la Fase 1 rápidamente. Mantén limpias esas manos. Fabrica tus propias mascarillas. Descarga una aplicación de rastreo de contactos *que proteja la privacidad* cuando estén disponibles el próximo mes. Mantente sano ¡física y mentalmente! Y escribe a tu representante público para que mueva el culo y...
 
