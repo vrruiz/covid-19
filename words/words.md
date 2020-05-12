@@ -416,7 +416,7 @@ Junto a otros equipos similares como Protocolo TCN [^tcn] y MIT PACT[^pact], han
 
 Pero ¿qué pasa con las personas que no tienen teléfonos inteligentes? ¿O con los contagios a través de las puertas? ¿O con los casos «realmente» asintomáticos? Las aplicaciones de rastreo de contactos no pueden identificar todas las infecciones... y *¡no hay ningún problema con eso!* No estamos obligados a identificar *todos* los contagios, solamente ese 60% o más necesario para que R < 1.
 
-(Diatraba sobre la confusión entre pre-sintomáticos y asintomáticos «reales». Los asintomáticos «reales» son muy pocos:[^rant])
+(Diatriba sobre la confusión entre pre-sintomáticos y asintomáticos «reales». Los asintomáticos «reales» son muy pocos:[^rant])
 
 [^rant]: Hay muchas noticias  –y, sinceramente, muchos artículos científicos– que no distinguen entre «casos que no han mostrado síntomas cuando les hicimos la prueba» (pre-sintomáticos) y «casos que *nunca* mostraron síntomas» (asintomáticos reales). La única manera de hallar la diferencia es mediante un seguimiento pormenorizado de los casos.
    
@@ -556,7 +556,7 @@ Sin mencionar todas las *otras* intervenciones, para reducir aún más R:
 * Comprobación de temperaturas en los centros comerciales y escuelas.
 * Lavado a conciencia de los espacios públicos.
 * [Reemplazo de apretón de manos con el choque de pies](https://twitter.com/V_actually/status/1233785527788285953).
-* Y el resto de cosas que nos brinda la ingenuidad humana.
+* Y el resto de cosas que nos brinda la creatividad humana.
 
 . . .
 
