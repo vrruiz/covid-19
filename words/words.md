@@ -558,8 +558,6 @@ Sin mencionar todas las *otras* intervenciones, para reducir aún más R:
 * [Reemplazo de apretón de manos con el choque de pies](https://twitter.com/V_actually/status/1233785527788285953).
 * Y el resto de cosas que nos brinda la creatividad humana.
 
-. . .
-
 Esperemos que estos planes le den esperanzas. 
 
 **Incluso en un escenario pesimista, *es* posible ganar a la COVID-19 y proteger nuestra salud mental y financiera.** ¡Usa el confinamiento como un «botón de reinicio», mantén R < 1 con el aislamiento de casos + rastreo de contactos con privacidad + *al menos* mascarillas para todos... y la vida puede volver a cierta normalidad!
@@ -664,8 +662,6 @@ Incluso en el escenario «sin vacuna», aún tenemos 3 maneras de escapar. De la
 </div>
 
 Incluso en el *peor* de los peores escenarios... la vida prevalece.
-
-. . .
 
 Quizás quieras cuestionar nuestras suposiciones e intentar unos R<sub>0</sub>s diferentes u otros números. ¡O intentar simular tu *propia* combinación de planes de intervención!
 
